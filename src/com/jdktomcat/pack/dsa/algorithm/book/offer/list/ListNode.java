@@ -50,6 +50,32 @@ public class ListNode {
     }
 
     /**
+     * 构造
+     *
+     * @param array 目标数组
+     * @return 链表头节点
+     */
+    public static ListNode buildLoop(int[] array, int entry) {
+        ListNode dummy = new ListNode(0);
+        if (array == null) {
+            return dummy.next;
+        }
+        ListNode cur = dummy;
+        ListNode entryNode = null;
+        for(int i=0;i< array.length;i++){
+            ListNode node = new ListNode(array[i]);
+            cur.next = node;
+            cur = cur.next;
+            if(i == entry){
+                entryNode = node;
+            }
+        }
+        cur.next = entryNode;
+        return dummy.next;
+    }
+
+
+    /**
      * 反构造
      *
      * @param head 链表头节点

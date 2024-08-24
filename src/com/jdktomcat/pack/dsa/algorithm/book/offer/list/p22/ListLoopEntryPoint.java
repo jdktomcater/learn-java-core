@@ -43,33 +43,6 @@ public class ListLoopEntryPoint {
         if (inLoop == null) {
             return null;
         }
-        int loopCount = 1;
-        for (ListNode n = inLoop; n.next != inLoop; n = n.next) {
-            loopCount++;
-        }
-        ListNode fast = head;
-        for (int i = 0; i < loopCount; i++) {
-            fast = fast.next;
-        }
-        ListNode slow = head;
-        while (fast != slow) {
-            fast = fast.next;
-            slow = slow.next;
-        }
-        return slow;
-    }
-
-    /**
-     * 查找环入口节点
-     *
-     * @param head 头结点
-     * @return 入口节点
-     */
-    public static ListNode detectCycleL0(ListNode head) {
-        ListNode inLoop = getNodeInLoop(head);
-        if (inLoop == null) {
-            return null;
-        }
         ListNode node = head;
         while (node != inLoop) {
             node = node.next;
