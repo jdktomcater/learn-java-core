@@ -62,11 +62,11 @@ public class ListNode {
         }
         ListNode cur = dummy;
         ListNode entryNode = null;
-        for(int i=0;i< array.length;i++){
+        for (int i = 0; i < array.length; i++) {
             ListNode node = new ListNode(array[i]);
             cur.next = node;
             cur = cur.next;
-            if(i == entry){
+            if (i == entry) {
                 entryNode = node;
             }
         }
@@ -85,11 +85,11 @@ public class ListNode {
         ListNode[] listArray = new ListNode[2];
         int commonSize = Math.min(array1.length, array2.length);
         int coincide = 0;
-        for(int i=0;i<commonSize;i++){
-            if(array1[array1.length-i-1] != array2[array2.length-i-1]){
+        for (int i = 0; i < commonSize; i++) {
+            if (array1[array1.length - i - 1] != array2[array2.length - i - 1]) {
                 break;
             }
-            coincide ++;
+            coincide++;
         }
         return listArray;
     }
