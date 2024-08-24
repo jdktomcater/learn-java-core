@@ -1,4 +1,4 @@
-package com.jdktomcat.prepare.australia.covas;
+package com.jdktomcat.interview.covas;
 
 import java.util.Scanner;
 
