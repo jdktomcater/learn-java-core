@@ -8,8 +8,14 @@ import java.util.List;
  */
 public class ListNode {
 
+    /**
+     * 链表节点值
+     */
     public int value;
 
+    /**
+     * 下一个节点指针
+     */
     public ListNode next;
 
     public ListNode() {
