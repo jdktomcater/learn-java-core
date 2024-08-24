@@ -15,8 +15,8 @@ public class IntersectionNode {
      * @return 第一个重合节点
      */
     public static ListNode getIntersectionNode(ListNode head1, ListNode head2) {
-        int count1 = countList(head1);
-        int count2 = countList(head2);
+        int count1 = ListNode.countList(head1);
+        int count2 = ListNode.countList(head2);
         int delta = Math.abs(count1 - count2);
         ListNode longer = count1 > count2 ? head1 : head2;
         ListNode shorter = count1 > count2 ? head2 : head1;
@@ -31,21 +31,4 @@ public class IntersectionNode {
         }
         return node1;
     }
-
-    /**
-     * 计算链表节点数量
-     *
-     * @param head 链表头结点
-     * @return 链表长度
-     */
-    private static int countList(ListNode head) {
-        int count = 0;
-        ListNode node = head;
-        while (node != null) {
-            node = node.next;
-            count++;
-        }
-        return count;
-    }
-
 }

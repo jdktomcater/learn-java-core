@@ -193,4 +193,20 @@ public class ListNode {
         }
         return prev;
     }
+
+    /**
+     * 计算链表节点数量
+     *
+     * @param head 链表头结点
+     * @return 链表长度
+     */
+    public static int countList(ListNode head) {
+        int count = 0;
+        ListNode node = head;
+        while (node != null) {
+            node = node.next;
+            count++;
+        }
+        return count;
+    }
 }
