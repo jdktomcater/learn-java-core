@@ -17,24 +17,24 @@ public class DeleteReverseKthNode {
      * @return 删除后的头结点
      */
     public static ListNode removeKthFromEnd(ListNode head, int k) {
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
+        // 哨兵节点，简化操作
+        ListNode dummy = new ListNode(0, head);
+        // 双指针，front、back
         ListNode front = head, back = dummy;
+        // 前指针先迁移k个节点
         for (int i = 0; i < k; i++) {
             front = front.next;
         }
+        // 后双指针同时迁移，直到前指针迁移到链尾
         while (front != null) {
             front = front.next;
             back = back.next;
         }
-        back.next = back.next.next;
+        // 如果不为空，则将目标节点从链上移除
+        if (back.next != null) {
+            back.next = back.next.next;
+        }
+        // 返回链表头节点
         return dummy.next;
-    }
-
-    public static void main(String[] args) {
-        int[] target = {1,2,3,4,5,6};
-        int k = 2;
-        ListNode head = removeKthFromEnd(ListNode.build(target),k);
-        System.out.println(Arrays.toString(ListNode.rebuild(head)));
     }
 }
