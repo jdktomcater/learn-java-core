@@ -74,6 +74,26 @@ public class ListNode {
         return dummy.next;
     }
 
+    /**
+     * 构造有重合链表
+     *
+     * @param array1 目标数组1
+     * @param array2 目标数组2
+     * @return 链表头节点
+     */
+    public static ListNode[] buildCoincide(int[] array1, int[] array2) {
+        ListNode[] listArray = new ListNode[2];
+        int commonSize = Math.min(array1.length, array2.length);
+        int coincide = 0;
+        for(int i=0;i<commonSize;i++){
+            if(array1[array1.length-i-1] != array2[array2.length-i-1]){
+                break;
+            }
+            coincide ++;
+        }
+        return listArray;
+    }
+
 
     /**
      * 反构造
