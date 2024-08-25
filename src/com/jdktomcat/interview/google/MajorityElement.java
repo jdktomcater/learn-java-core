@@ -8,7 +8,7 @@ public class MajorityElement {
         if (data == null || data.length == 0) {
             throw new IllegalArgumentException("No majority element found");
         }
-        if (data != null && data.length == 1) {
+        if (data.length == 1) {
             return data[0];
         }
         Map<Integer, Integer> map = new HashMap<>();
