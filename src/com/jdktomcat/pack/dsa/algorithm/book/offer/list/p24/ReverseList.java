@@ -2,8 +2,6 @@ package com.jdktomcat.pack.dsa.algorithm.book.offer.list.p24;
 
 import com.jdktomcat.pack.dsa.algorithm.book.offer.list.ListNode;
 
-import java.util.Arrays;
-
 /**
  * 反转链表
  */
