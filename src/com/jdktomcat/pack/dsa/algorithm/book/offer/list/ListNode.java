@@ -82,16 +82,34 @@ public class ListNode {
      * @return 链表头节点
      */
     public static ListNode[] buildCoincide(int[] array1, int[] array2) {
-        ListNode[] listArray = new ListNode[2];
         int commonSize = Math.min(array1.length, array2.length);
         int coincide = 0;
+        ListNode dummy = new ListNode(0);
+        ListNode node = dummy;
         for (int i = 0; i < commonSize; i++) {
             if (array1[array1.length - i - 1] != array2[array2.length - i - 1]) {
                 break;
             }
+            node.next = new ListNode(array1[array1.length - i - 1]);
+            node = node.next;
             coincide++;
         }
-        return listArray;
+        ListNode coinHead = ListNode.reverseList(dummy.next);
+        ListNode dummy0 = new ListNode(0);
+        node = dummy0;
+        for (int i = 0; i < array1.length - coincide; i++) {
+            node.next = new ListNode(array1[i]);
+            node = node.next;
+        }
+        node.next = coinHead;
+        ListNode dummy1 = new ListNode(0);
+        node = dummy1;
+        for (int i = 0; i < array2.length - coincide; i++) {
+            node.next = new ListNode(array2[i]);
+            node = node.next;
+        }
+        node.next = coinHead;
+        return new ListNode[]{dummy0.next, dummy1.next};
     }
 
 
