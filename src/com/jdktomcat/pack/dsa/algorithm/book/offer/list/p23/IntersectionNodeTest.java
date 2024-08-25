@@ -36,4 +36,33 @@ public class IntersectionNodeTest {
         Assert.assertNotNull(node);
         Assert.assertEquals(3, node.value);
     }
+
+    @Test
+    public void getIntersectionNodeEdgeFull() {
+        ListNode[] listNodes = ListNode.buildCoincide(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3, 4});
+        ListNode node = IntersectionNode.getIntersectionNode(listNodes[0], listNodes[1]);
+        Assert.assertNotNull(node);
+        Assert.assertEquals(1, node.value);
+    }
+
+    @Test
+    public void getIntersectionNodeEdgeBothEmpty() {
+        ListNode[] listNodes = ListNode.buildCoincide(new int[]{}, new int[]{});
+        ListNode node = IntersectionNode.getIntersectionNode(listNodes[0], listNodes[1]);
+        Assert.assertNull(node);
+    }
+
+    @Test
+    public void getIntersectionNodeEdgeFirstEmpty() {
+        ListNode[] listNodes = ListNode.buildCoincide(new int[]{1}, new int[]{});
+        ListNode node = IntersectionNode.getIntersectionNode(listNodes[0], listNodes[1]);
+        Assert.assertNull(node);
+    }
+
+    @Test
+    public void getIntersectionNodeEdgeSecondEmpty() {
+        ListNode[] listNodes = ListNode.buildCoincide(new int[]{}, new int[]{1});
+        ListNode node = IntersectionNode.getIntersectionNode(listNodes[0], listNodes[1]);
+        Assert.assertNull(node);
+    }
 }

@@ -26,11 +26,4 @@ public class ReverseList {
         }
         return prev;
     }
-
-    public static void main(String[] args) {
-        int[] target = {1,2,3,4,5,6};
-        ListNode head = reverseList(ListNode.build(target));
-        System.out.println(Arrays.toString(ListNode.rebuild(head)));
-    }
-
 }
