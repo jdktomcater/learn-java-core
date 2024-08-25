@@ -12,6 +12,7 @@ public class LRUCache {
      * 双向链表节点
      */
     public static class ListNode {
+
         public int key;
 
         public int val;
