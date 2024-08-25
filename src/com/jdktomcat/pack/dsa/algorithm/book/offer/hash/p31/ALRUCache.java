@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class ALRUCache<K, V> extends LinkedHashMap<K, V> {
 
-    private int cacheSize;
+    private final int cacheSize;
 
     public ALRUCache(int capacity){
         super((int) Math.ceil(capacity / 0.75f), 0.75f, true);

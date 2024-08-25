@@ -8,7 +8,6 @@ import java.util.Map;
  */
 public class LRUCache {
 
-
     /**
      * 双向链表节点
      */
@@ -27,13 +26,13 @@ public class LRUCache {
         }
     }
 
-    private ListNode head;
+    private final ListNode head;
 
-    private ListNode tail;
+    private final ListNode tail;
 
-    private Map<Integer, ListNode> map;
+    private final Map<Integer, ListNode> map;
 
-    private int capacity;
+    private final int capacity;
 
     public LRUCache(int cap) {
         map = new HashMap<>();
@@ -80,10 +79,9 @@ public class LRUCache {
                 deleteNode(toBeDeleted);
                 map.remove(toBeDeleted.key);
             }
-
             ListNode node = new ListNode(key, val);
             insertToTail(node);
-            map.remove(key, node);
+            map.put(key, node);
         }
     }
 }
