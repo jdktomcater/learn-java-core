@@ -13,10 +13,11 @@ public class ReorderList {
      * @param head 列表头节点
      */
     public static void reorderList(ListNode head) {
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-        ListNode fast = dummy;
-        ListNode slow = dummy;
+        // 哨兵节点
+        ListNode dummy = new ListNode(0, head);
+        // 双指针：快慢指针
+        ListNode fast = dummy, slow = dummy;
+        // 查找中间节点
         while (fast.next != null) {
             slow = slow.next;
             fast = fast.next;
@@ -24,8 +25,11 @@ public class ReorderList {
                 fast = fast.next;
             }
         }
+        // 中间节点
         ListNode temp = slow.next;
+        // 截断链表
         slow.next = null;
+        // 重连链表
         link(head, ListNode.reverseList(temp), dummy);
     }
 
@@ -40,11 +44,9 @@ public class ReorderList {
         ListNode prev = head;
         while (node1 != null && node2 != null) {
             ListNode temp = node1.next;
-
             prev.next = node1;
             node1.next = node2;
             prev = node2;
-
             node1 = temp;
             node2 = node2.next;
         }
