@@ -48,13 +48,4 @@ public class ListNodeNumberAdd {
         }
         return dummy.next;
     }
-
-    public static void main(String[] args) {
-        int[] target = {1,2,3,4,5,6};
-        ListNode head1 = ListNode.build(target);
-        ListNode head2 = ListNode.build(target);
-        ListNode head = addTwoNumbers(head1,head2);
-        System.out.println(Arrays.toString(ListNode.rebuild(head)));
-    }
-
 }
