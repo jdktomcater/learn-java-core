@@ -247,4 +247,21 @@ public class ListNode {
         }
         return count;
     }
+
+    /**
+     * 链表反转
+     *
+     * @param head 链表头
+     * @return 反转后链表头
+     */
+    public static ListNode reverse(ListNode head){
+        ListNode prev = null, node = head;
+        while (node != null) {
+            ListNode next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
+        }
+        return prev;
+    }
 }
