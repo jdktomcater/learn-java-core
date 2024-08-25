@@ -47,11 +47,4 @@ public class AlienWord {
         }
         return i == word1.length();
     }
-
-    public static void main(String[] args) {
-        String[] words = {"offer", "is", "coming"};
-        String order = "zyxwvutsrqponmlkjihgfedcba";
-        System.out.println(isAlienSorted(words, order));
-    }
-
 }
