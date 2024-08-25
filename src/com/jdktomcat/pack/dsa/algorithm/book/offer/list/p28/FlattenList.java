@@ -11,7 +11,7 @@ public class FlattenList {
      * 展平多级链表
      *
      * @param head 头
-     * @return
+     * @return 新节点头
      */
     public static Node fatten(Node head) {
         flattenGetTail(head);
