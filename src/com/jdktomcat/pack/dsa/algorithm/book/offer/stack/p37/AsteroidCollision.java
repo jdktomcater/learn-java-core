@@ -27,5 +27,4 @@ public class AsteroidCollision {
         }
         return stack.stream().mapToInt(i -> i).toArray();
     }
-
 }
