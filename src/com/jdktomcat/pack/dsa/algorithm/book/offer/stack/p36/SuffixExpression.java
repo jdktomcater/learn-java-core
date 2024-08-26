@@ -54,5 +54,4 @@ public class SuffixExpression {
                 return 0;
         }
     }
-
 }
