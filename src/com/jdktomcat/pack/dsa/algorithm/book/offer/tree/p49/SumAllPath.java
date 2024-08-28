@@ -34,6 +34,5 @@ public class SumAllPath {
             return path;
         }
         return dfs(root.left, path) + dfs(root.right, path);
-
     }
 }

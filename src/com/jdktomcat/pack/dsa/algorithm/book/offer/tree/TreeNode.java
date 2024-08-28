@@ -38,6 +38,9 @@ public class TreeNode {
      * @return 树根节点
      */
     public static TreeNode buildTree(Integer[] target, int index) {
+        if(target.length == 0) {
+            return null;
+        }
         if (index > target.length) {
             return null;
         }
