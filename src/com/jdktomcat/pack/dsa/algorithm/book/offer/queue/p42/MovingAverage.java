@@ -8,9 +8,9 @@ import java.util.Queue;
  */
 public class MovingAverage {
 
-    private Queue<Integer> numbers;
+    private final Queue<Integer> numbers;
 
-    private int capacity;
+    private final int capacity;
 
     private int sum;
 
@@ -22,10 +22,9 @@ public class MovingAverage {
     public double next(int val) {
         numbers.offer(val);
         sum += val;
-        if (numbers.size() > capacity) {
+        if (numbers.size() > capacity && !numbers.isEmpty()) {
             sum -= numbers.poll();
         }
         return (double) sum / numbers.size();
     }
-
 }
