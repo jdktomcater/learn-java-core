@@ -10,9 +10,9 @@ import java.util.Queue;
  */
 public class CBTInserter {
 
-    private Queue<TreeNode> queue;
+    private final Queue<TreeNode> queue;
 
-    private TreeNode root;
+    private final TreeNode root;
 
     public CBTInserter(TreeNode root) {
         this.root = root;

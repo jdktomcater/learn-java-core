@@ -44,10 +44,7 @@ public class TreeNode {
         if (target[index - 1] == null) {
             return null;
         }
-        TreeNode root = new TreeNode(target[index - 1], null, null);
-        root.left = buildTree(target, 2 * index);
-        root.right = buildTree(target, 2 * index + 1);
-        return root;
+        return new TreeNode(target[index - 1], buildTree(target, 2 * index), buildTree(target, 2 * index + 1));
     }
 
 
