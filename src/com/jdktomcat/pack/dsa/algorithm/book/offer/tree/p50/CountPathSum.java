@@ -44,8 +44,4 @@ public class CountPathSum {
         pathMap.put(path, pathMap.get(path) - 1);
         return count;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
