@@ -8,9 +8,9 @@ import java.util.Queue;
  */
 public class RecentAverage {
 
-    private Queue<Integer> times;
+    private final Queue<Integer> times;
 
-    private int windowSize;
+    private final int windowSize;
 
     public RecentAverage() {
         times = new LinkedList<>();
@@ -19,10 +19,9 @@ public class RecentAverage {
 
     public int ping(int t) {
         times.offer(t);
-        while (times.peek() + windowSize < t) {
+        while (!times.isEmpty() && times.peek() + windowSize < t) {
             times.poll();
         }
         return times.size();
     }
-
 }
