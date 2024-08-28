@@ -8,7 +8,7 @@ import java.util.TreeMap;
  */
 public class MyCalendar {
 
-    private TreeMap<Integer, Integer> events;
+    private final TreeMap<Integer, Integer> events;
 
     public MyCalendar() {
         events = new TreeMap<>();
