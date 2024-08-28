@@ -46,8 +46,6 @@ public class CountPathSum {
     }
 
     public static void main(String[] args) {
-        Integer[] numbers = new Integer[]{5, 2, 4, 1, 6, 3, 7};
-        TreeNode root = TreeNode.buildTree(numbers, 1);
-        System.out.println(pathSum(root, 8));
+
     }
 }
