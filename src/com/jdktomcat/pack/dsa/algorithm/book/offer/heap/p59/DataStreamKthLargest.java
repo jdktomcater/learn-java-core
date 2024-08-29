@@ -7,9 +7,9 @@ import java.util.PriorityQueue;
  */
 public class DataStreamKthLargest {
 
-    private PriorityQueue<Integer> minHeap;
+    private final PriorityQueue<Integer> minHeap;
 
-    private int size;
+    private final int size;
 
     public DataStreamKthLargest(int k, int[] numbers) {
         size = k;
@@ -23,16 +23,17 @@ public class DataStreamKthLargest {
      * 新增元素
      *
      * @param number 数字
-     * @return 返回最小值
      */
-    private int add(Integer number) {
+    public void add(Integer number) {
         if (minHeap.size() < size) {
             minHeap.offer(number);
-        } else if (number > minHeap.peek()) {
+        } else if (!minHeap.isEmpty() && number > minHeap.peek()) {
             minHeap.poll();
             minHeap.offer(number);
         }
-        return minHeap.peek();
     }
 
+    public int getKthLargest() {
+        return !minHeap.isEmpty() ? minHeap.peek() : -1;
+    }
 }
