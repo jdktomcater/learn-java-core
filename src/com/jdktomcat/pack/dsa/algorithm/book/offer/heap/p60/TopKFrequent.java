@@ -23,7 +23,7 @@ public class TopKFrequent {
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (minHeap.size() < k) {
                 minHeap.offer(entry);
-            } else if (entry.getValue() > minHeap.peek().getValue()) {
+            } else if (!minHeap.isEmpty() && entry.getValue() > minHeap.peek().getValue()) {
                 minHeap.poll();
                 minHeap.offer(entry);
             }
