@@ -69,11 +69,4 @@ public class ReplaceWords {
         }
         return String.join(" ", words);
     }
-
-    public static void main(String[] args) {
-        String[] dict = new String[]{"cat", "bat", "rat"};
-        String sentence = "the cattle was rattled by battery";
-        System.out.println(replaceWords(Arrays.asList(dict), sentence));
-    }
-
 }
