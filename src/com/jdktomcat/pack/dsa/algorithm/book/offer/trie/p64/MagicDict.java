@@ -7,7 +7,7 @@ import com.jdktomcat.pack.dsa.algorithm.book.offer.trie.p62.Trie;
  */
 public class MagicDict {
 
-    private Trie.TrieNode root;
+    private final Trie.TrieNode root;
 
     public MagicDict() {
         root = new Trie.TrieNode();
