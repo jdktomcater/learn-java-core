@@ -28,9 +28,4 @@ public class SortedArrayOccurOnce {
         }
         return numbers[numbers.length - 1];
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1,1,2,2,3,4,4,5,5};
-        System.out.println(singleNonDuplicate(numbers));
-    }
 }
