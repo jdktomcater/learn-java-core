@@ -3,8 +3,6 @@ package com.jdktomcat.pack.dsa.algorithm.book.offer.sort.p76;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ArrayKthNumberTest {
 
     @Test
