@@ -33,12 +33,4 @@ public class MergeInterval {
         int[][] result = new int[merged.size()][];
         return merged.toArray(result);
     }
-
-    public static void main(String[] args) {
-        int[][] intervals = {{1, 3}, {4, 5}, {8, 10}, {2, 6}, {9, 12}, {15, 18}};
-        int[][] result = merge(intervals);
-        for (int[] array : result) {
-            System.out.println(Arrays.toString(array));
-        }
-    }
 }
