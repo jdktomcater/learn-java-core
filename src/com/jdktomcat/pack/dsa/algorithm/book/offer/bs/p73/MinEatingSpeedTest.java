@@ -2,8 +2,6 @@ package com.jdktomcat.pack.dsa.algorithm.book.offer.bs.p73;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class MinEatingSpeedTest {
 
     @Test
