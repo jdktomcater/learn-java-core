@@ -27,10 +27,4 @@ public class MountainPeakPosition {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1, 3, 5, 4, 2};
-        System.out.println(peak(numbers));
-    }
-
 }
