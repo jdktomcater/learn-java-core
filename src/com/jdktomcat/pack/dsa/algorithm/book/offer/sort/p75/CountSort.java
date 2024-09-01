@@ -9,7 +9,6 @@ public class CountSort {
      * 计数排序
      *
      * @param numbers 原始数组
-     * @return 排序后
      */
     public static void countSort(int[] numbers) {
         int min = Integer.MAX_VALUE;
