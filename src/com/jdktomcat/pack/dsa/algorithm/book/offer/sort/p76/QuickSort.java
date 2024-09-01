@@ -48,11 +48,4 @@ public class QuickSort {
         SwapUtil.swap(numbers, start, right);
         return right;
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{23, 1, 56, 34, 234, 6, 13, 24};
-        quickSort(numbers, 0, numbers.length - 1);
-        System.out.println(Arrays.toString(numbers));
-    }
-
 }

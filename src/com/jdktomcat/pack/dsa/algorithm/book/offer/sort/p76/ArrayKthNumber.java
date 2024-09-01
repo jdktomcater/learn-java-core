@@ -27,11 +27,4 @@ public class ArrayKthNumber {
         }
         return numbers[pivot];
     }
-
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{23, 1, 56, 34, 234, 6, 13, 24};
-        System.out.println(kthNum(numbers, 4));
-    }
-
 }
