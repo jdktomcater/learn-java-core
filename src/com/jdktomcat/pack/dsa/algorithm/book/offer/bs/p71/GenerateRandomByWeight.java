@@ -7,7 +7,7 @@ import java.util.Random;
  */
 public class GenerateRandomByWeight {
 
-    private int[] sums;
+    private final int[] sums;
 
     private int total;
 
