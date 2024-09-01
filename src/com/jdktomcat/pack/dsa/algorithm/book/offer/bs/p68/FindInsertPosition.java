@@ -28,11 +28,4 @@ public class FindInsertPosition {
         }
         return numbers.length;
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1,3,6,8};
-        System.out.println(searchInsert(numbers,3));
-        System.out.println(searchInsert(numbers,5));
-        System.out.println(searchInsert(numbers,15));
-    }
 }
