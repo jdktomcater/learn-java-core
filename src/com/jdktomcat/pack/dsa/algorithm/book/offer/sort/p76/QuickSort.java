@@ -2,8 +2,6 @@ package com.jdktomcat.pack.dsa.algorithm.book.offer.sort.p76;
 
 import com.jdktomcat.pack.dsa.algorithm.book.offer.util.SwapUtil;
 
-import java.util.Arrays;
-
 /**
  * 快速排序
  */
