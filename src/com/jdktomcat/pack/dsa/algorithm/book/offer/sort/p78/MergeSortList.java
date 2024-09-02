@@ -1,7 +1,7 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.sort.p78;
 
-import com.jdktomcat.pack.dsa.algorithm.book.offer.sort.p77.ListSort;
 import com.jdktomcat.pack.dsa.algorithm.book.offer.list.ListNode;
+import com.jdktomcat.pack.dsa.algorithm.book.offer.sort.p77.ListSort;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -18,21 +18,21 @@ public class MergeSortList {
      * @return 合并后链表头节点
      */
     public static ListNode mergeKListsMinHeap(ListNode[] lists) {
-        ListNode dummy = new ListNode();
-        ListNode cur = dummy;
         PriorityQueue<ListNode> minHeap = new PriorityQueue<>(Comparator.comparingInt(n -> n.value));
         for (ListNode node : lists) {
-            if (node != null) {
-                minHeap.offer(node);
+            ListNode curNode = node;
+            while (curNode != null) {
+                minHeap.offer(curNode);
+                curNode = curNode.next;
             }
         }
+        ListNode dummy = new ListNode();
+        ListNode cur = dummy;
         while (!minHeap.isEmpty()) {
             ListNode least = minHeap.poll();
             cur.next = least;
             cur = least;
-            if (cur.next != null) {
-                minHeap.offer(cur.next);
-            }
+            least.next = null;
         }
         return dummy.next;
     }
