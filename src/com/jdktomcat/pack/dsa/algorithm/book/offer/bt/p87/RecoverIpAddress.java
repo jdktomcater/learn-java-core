@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.bt.p87;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -40,7 +39,7 @@ public class RecoverIpAddress {
                 helper(address, index + 1, segI, seg + ch, ip, result);
             }
             // 作为下一个ip段开始
-            if (seg.length() > 0 && segI < 3) {
+            if (!seg.isEmpty() && segI < 3) {
                 helper(address, index + 1, segI + 1, "" + ch, ip + seg + ".", result);
             }
         }
@@ -55,11 +54,4 @@ public class RecoverIpAddress {
     private static boolean isValidSeg(String seg) {
         return Integer.parseInt(seg) <= 255 && (seg.equals("0") || seg.charAt(0) != '0');
     }
-
-    public static void main(String[] args) {
-        String address = "10203040";
-        List<String> result = recoverIpAddress(address);
-        System.out.println(Arrays.toString(result.toArray()));
-    }
-
 }
