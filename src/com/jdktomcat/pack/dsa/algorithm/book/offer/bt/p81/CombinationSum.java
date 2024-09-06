@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.bt.p81;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -43,9 +42,5 @@ public class CombinationSum {
             // 去除修改
             subList.removeLast();
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
