@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.bt.p83;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -59,14 +58,4 @@ public class UniqueEleFullPermutation {
             numbers[j] = temp;
         }
     }
-
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1, 2, 3};
-        List<List<Integer>> result = permute(numbers);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
-        }
-    }
-
 }
