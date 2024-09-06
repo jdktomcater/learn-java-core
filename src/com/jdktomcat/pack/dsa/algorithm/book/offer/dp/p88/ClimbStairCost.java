@@ -79,20 +79,10 @@ public class ClimbStairCost {
      * @param cost 成本信息
      */
     public static int minCostClimbStairsL1(int[] cost) {
-        int[] dp = new int[2];
-        dp[0] = cost[0];
-        dp[1] = cost[1];
+        int[] dp = new int[]{cost[0], cost[1]};
         for (int i = 2; i < cost.length; i++) {
             dp[i % 2] = Math.min(dp[0], dp[1]) + cost[i];
         }
         return Math.min(dp[0], dp[1]);
-    }
-
-    public static void main(String[] args) {
-        int[] cost = new int[]{1, 100, 1, 1, 100, 1};
-        System.out.println("L4计算消耗成本：" + minCostClimbStairsL4(cost));
-        System.out.println("L3计算消耗成本：" + minCostClimbStairsL3(cost));
-        System.out.println("L2计算消耗成本：" + minCostClimbStairsL2(cost));
-        System.out.println("L1计算消耗成本：" + minCostClimbStairsL1(cost));
     }
 }
