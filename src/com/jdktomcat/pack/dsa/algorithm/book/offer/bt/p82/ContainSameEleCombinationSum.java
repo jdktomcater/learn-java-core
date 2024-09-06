@@ -60,14 +60,4 @@ public class ContainSameEleCombinationSum {
         }
         return next;
     }
-
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{2, 2, 2, 4, 3, 3};
-        int target = 8;
-        List<List<Integer>> result = combinationSum(numbers, target);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
-        }
-    }
 }
