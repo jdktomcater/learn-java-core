@@ -46,11 +46,6 @@ public class CombinationSum {
     }
 
     public static void main(String[] args) {
-        int[] numbers = new int[]{2, 3, 5};
-        int target = 8;
-        List<List<Integer>> result = combinationSum(numbers, target);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
-        }
+
     }
 }
