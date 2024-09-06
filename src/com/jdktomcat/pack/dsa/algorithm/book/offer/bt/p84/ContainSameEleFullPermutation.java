@@ -38,8 +38,9 @@ public class ContainSameEleFullPermutation {
             // 防重集合
             Set<Integer> set = new HashSet<>();
             for (int j = index; j < numbers.length; j++) {
-                // 判断元素是否已经添加到集合中
+                // 判断元素是否已经添加在此位置上已经出现过
                 if (!set.contains(numbers[j])) {
+                    // 添加到集合
                     set.add(numbers[j]);
                     swap(numbers, index, j);
                     helper(numbers, index + 1, result);
