@@ -1,7 +1,6 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.bt.p79;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,8 +17,7 @@ public class AllSubSet {
      */
     public static List<List<Integer>> subSet(int[] numbers) {
         List<List<Integer>> result = new ArrayList<>();
-        LinkedList<Integer> subList = new LinkedList<>();
-        helper(numbers, 0, subList, result);
+        helper(numbers, 0, new LinkedList<>(), result);
         return result;
     }
 
@@ -33,23 +31,17 @@ public class AllSubSet {
      */
     private static void helper(int[] numbers, int index, LinkedList<Integer> subList, List<List<Integer>> result) {
         if (index == numbers.length) {
+            // 目标结果
             result.add(new LinkedList<>(subList));
         } else if (index < numbers.length) {
             // 一个元素不加入集合
             helper(numbers, index + 1, subList, result);
             // 一个元素加入集合
             subList.add(numbers[index]);
+            // 下次计算
             helper(numbers, index + 1, subList, result);
             // 去除修改
             subList.removeLast();
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1, 2, 3, 20};
-        List<List<Integer>> result = subSet(numbers);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
         }
     }
 }
