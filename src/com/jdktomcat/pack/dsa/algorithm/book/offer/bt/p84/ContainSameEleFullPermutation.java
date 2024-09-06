@@ -35,12 +35,13 @@ public class ContainSameEleFullPermutation {
             }
             result.add(permutation);
         } else {
+            // 防重集合
             Set<Integer> set = new HashSet<>();
             for (int j = index; j < numbers.length; j++) {
+                // 判断元素是否已经添加到集合中
                 if (!set.contains(numbers[j])) {
                     set.add(numbers[j]);
                     swap(numbers, index, j);
-                    // 一个元素不加入集合
                     helper(numbers, index + 1, result);
                     swap(numbers, index, j);
                 }
@@ -60,14 +61,6 @@ public class ContainSameEleFullPermutation {
             int temp = numbers[i];
             numbers[i] = numbers[j];
             numbers[j] = temp;
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1, 1, 2};
-        List<List<Integer>> result = permute(numbers);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
         }
     }
 }
