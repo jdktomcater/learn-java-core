@@ -36,9 +36,11 @@ public class UniqueEleFullPermutation {
             result.add(permutation);
         } else {
             for (int j = index; j < numbers.length; j++) {
+                // 选定index位置数字
                 swap(numbers, index, j);
-                // 一个元素不加入集合
+                // 再选定index+1数字
                 helper(numbers, index + 1, result);
+                // 回置index位置数字
                 swap(numbers, index, j);
             }
         }
