@@ -9,7 +9,7 @@ public class GenerateParentBracketTest {
 
     @Test
     public void generateParentBracket() {
-        int n = 15;
+        int n = 5;
         List<String> result = GenerateParentBracket.generateParentBracket(n);
         System.out.println(Arrays.toString(result.toArray()));
     }
