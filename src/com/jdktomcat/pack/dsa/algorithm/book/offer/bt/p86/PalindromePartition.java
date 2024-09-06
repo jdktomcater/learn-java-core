@@ -59,12 +59,4 @@ public class PalindromePartition {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        String target = "google";
-        List<List<String>> result = partition(target);
-        for (List<String> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
-        }
-    }
 }
