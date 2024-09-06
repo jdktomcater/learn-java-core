@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.dsa.algorithm.book.offer.bt.p80;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -42,13 +41,6 @@ public class ContainsKthSubSet {
             helper(length, size, index + 1, subList, result);
             // 去除修改
             subList.removeLast();
-        }
-    }
-
-    public static void main(String[] args) {
-        List<List<Integer>> result = containsKthSubSet(3, 2);
-        for (List<Integer> subSet : result) {
-            System.out.println(Arrays.toString(subSet.toArray()));
         }
     }
 }
