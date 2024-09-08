@@ -24,7 +24,7 @@ public class ClimbStairCostTest {
 
     @Test
     public void minCostClimbStairsL1() {
-        int[] cost = new int[]{1, 100, 1, 1, 100, 1};
+        int[] cost = new int[]{1, 2, 1, 1, 100, 1};
         System.out.println("L1计算消耗成本：" + ClimbStairCost.minCostClimbStairsL1(cost));
     }
 }
