@@ -24,12 +24,8 @@ public class BrushHouse {
         for (int i = 1; i < costs.length; i++) {
             // 颜色遍历
             for (int j = 0; j < 3; j++) {
-                // 除了本颜色之外的另外颜色1的花费
-                int prev1 = dp[(j + 2) % 3][(i - 1) % 2];
-                // 除了本颜色之外的另外颜色2的花费
-                int prev2 = dp[(j + 1) % 3][(i - 1) % 2];
                 // 取另外两种颜色花费最小者然后加上该颜色花费
-                dp[j][i % 2] = Math.min(prev1, prev2) + costs[i][j];
+                dp[j][i % 2] = Math.min(dp[(j + 2) % 3][(i - 1) % 2], dp[(j + 1) % 3][(i - 1) % 2]) + costs[i][j];
             }
         }
         // 计算索引
