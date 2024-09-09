@@ -43,9 +43,4 @@ public class CircleRobHouse {
         }
         return dp[(end - start) % 2];
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{2, 3, 4, 5, 3};
-        System.out.println("环形最大抢劫财产数：" + rob(numbers));
-    }
 }
