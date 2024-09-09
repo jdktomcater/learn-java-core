@@ -37,9 +37,4 @@ public class BrushHouse {
         // 取三者最小者即可
         return Math.min(dp[0][last], Math.min(dp[1][last], dp[2][last]));
     }
-
-    public static void main(String[] args) {
-        int[][] costs = {{17, 2, 16}, {15, 14, 5}, {13, 3, 1}};
-        System.out.println("刷房子最少花费：" + miniCost(costs));
-    }
 }
