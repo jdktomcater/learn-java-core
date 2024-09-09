@@ -12,9 +12,11 @@ public class BrushHouse {
      * @return 最小花费
      */
     public static int miniCost(int[][] costs) {
+        // 判断边界值
         if (costs.length == 0) {
             return 0;
         }
+        // 缓存信息
         int[][] dp = new int[3][2];
         // 颜色初始值
         for (int i = 0; i < 3; i++) {
