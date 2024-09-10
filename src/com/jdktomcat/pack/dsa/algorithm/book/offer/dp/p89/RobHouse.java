@@ -87,11 +87,4 @@ public class RobHouse {
         }
         return dp[(numbers.length - 1) % 2];
     }
-
-    public static void main(String[] args) {
-        int[] numbers = new int[]{2, 3, 4, 5, 3};
-        System.out.println("L1最大抢劫财产数：" + rob(numbers));
-        System.out.println("L2最大抢劫财产数：" + robL2(numbers));
-        System.out.println("L3最大抢劫财产数：" + robL3(numbers));
-    }
 }
