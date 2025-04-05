@@ -1,5 +1,8 @@
 package com.jdktomcat.pack;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * 类描述：
  *
@@ -8,23 +11,10 @@ package com.jdktomcat.pack;
  */
 public class Test {
 
-    private String key1;
-
-    private String key2;
-
-    public String getKey1() {
-        return key1;
-    }
-
-    public void setKey1(String key1) {
-        this.key1 = key1;
-    }
-
-    public String getKey2() {
-        return key2;
-    }
-
-    public void setKey2(String key2) {
-        this.key2 = key2;
+    public static void main(String[] args) {
+        String configMerchantIdsValue = " 201376,201421,201422";
+        Integer merchantId = 201376;
+        List<String> configMerchantIds = Arrays.asList(configMerchantIdsValue.replace(" ", "").split(","));
+        System.out.println(configMerchantIds.contains(String.valueOf(merchantId)));
     }
 }
