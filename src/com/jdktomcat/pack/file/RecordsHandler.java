@@ -18,7 +18,7 @@ public class RecordsHandler {
      * @param filePath 文件路径
      * @return 记录列表
      */
-    private static List<Record> readData(String filePath) throws FileNotFoundException, ParseException {
+    private static List<Record> readData(String filePath) throws FileNotFoundException {
         List<Record> records = new ArrayList<>(100000);
         Scanner scanner = new Scanner(new File(filePath));
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
