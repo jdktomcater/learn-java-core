@@ -47,7 +47,7 @@ public class RecordsHandler {
         return records;
     }
 
-    public static Set<String> checkOrder(List<Record> records) {
+    public static Set<String> checkMissOrder(List<Record> records) {
         Set<String> orderIds = new HashSet<>();
         for (int i = records.size() - 1; i >= 0; i--) {
             Record record = records.get(i);
@@ -63,8 +63,25 @@ public class RecordsHandler {
         return orderIds;
     }
 
+    public static Set<String> checkAsyncOrder(List<Record> records) {
+        Set<String> orderIds = new HashSet<>();
+        BigDecimal preBalance = BigDecimal.ZERO;
+        for (int i = records.size() - 1; i >= 0; i--) {
+            Record record = records.get(i);
+            if(record.getModificationType() != 10) {
+                continue;
+            }
+            if(record.getPreAvailableBalance().compareTo(preBalance) != 0) {
+                preBalance = record.getPreAvailableBalance();
+            }else{
+                orderIds.add(record.getOrderId());
+            }
+        }
+        return orderIds;
+    }
+
     public static void writeResult(Set<String> orderIds) throws IOException {
-        PrintWriter printWriter = new PrintWriter(new FileWriter("order_id_except.txt"));
+        PrintWriter printWriter = new PrintWriter(new FileWriter("order_id_except_1.txt"));
         orderIds.forEach(printWriter::println);
         printWriter.flush();
         printWriter.close();
@@ -79,7 +96,7 @@ public class RecordsHandler {
     public static void main(String[] args) throws IOException, ParseException {
         String filePath = "C:\\timmy\\workspace\\learn-java-core\\txt\\records.txt";
         List<Record> records = readData(filePath);
-        Set<String> orderIds = checkOrder(records);
+        Set<String> orderIds = checkAsyncOrder(records);
         writeResult(orderIds);
     }
 }
