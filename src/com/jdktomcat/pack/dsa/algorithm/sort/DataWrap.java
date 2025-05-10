@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.dsa.algorithm.sort;
 
-import com.sun.istack.internal.NotNull;
 
 /**
  * 类描述：数据包装类
@@ -79,7 +78,7 @@ public class DataWrap implements Comparable<DataWrap> {
      *                              from being compared to this object.
      */
     @Override
-    public int compareTo(@NotNull DataWrap o) {
+    public int compareTo(DataWrap o) {
         return this.getValue() - o.value;
     }
 
