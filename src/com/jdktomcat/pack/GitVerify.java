@@ -12,6 +12,7 @@ public class GitVerify {
         String cycle = "cycle_";
         tag = tag.substring(tag.indexOf(cycle)+ cycle.length());
         System.out.println(tag);
+        System.out.println(tag);
     }
 
 }

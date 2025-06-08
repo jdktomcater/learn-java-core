@@ -74,7 +74,7 @@ public class DesUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        String pass = "ism2a4YKIr/mEtZYmGt2+tZbMYijRSpAtO//mDjjlGe6D1zZazqkyQ==";
+        String pass = "ENC(jnqcGbmi9Yy49i9SjM7DC1sUE+UaG29LCGT//medtMYPI/bXHPufBv5Ymj5TtSmiCJNp30gN/BkeT7mXSN/a7qlREAh5zjiDiUM7qylX55I=)";
         System.out.println(decrypt(pass));
     }
 }
