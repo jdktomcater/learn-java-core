@@ -1,4 +1,4 @@
-package com.jdktomcat.pack.bytecode;
+package com.jdktomcat.pack.jdk.bytecode;
 
 import java.io.File;
 
