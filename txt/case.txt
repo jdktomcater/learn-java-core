@@ -1,0 +1,2465 @@
+
+                    case "WithdrawOrderJrPurePaymentCheckJob": {
+
+
+                    case "WithdrawOrderXinfutongpayiCheckJob": {
+
+
+                    case "WithdrawOrderYibaopayiCheckJob": {
+
+
+                    case "WithdrawOrderYinshengbaopayiCheckJob": {
+
+
+                    case "WithdrawOrderChuanhua2payiCheckJob": {
+
+
+                    case "WithdrawOrderHuicaipayiCheckJob": {
+
+
+                    case "WithdrawOrderJianrongpayiCheckJob": {
+
+                   /* case "WithdrawOrderDibiyingpayiCheckJob": {
+                        //查询订单
+                        result = orderDibiyingpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }*/
+                    //苹果支付提款订单mq定时查询
+                    case "WithdrawOrderPingguopayiCheckJob": {
+                        //查询订单
+                        result = orderPingguopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //汇才银企代付提款订单mq定时查询
+                    case "WithdrawOrderHuicaiyqpayiCheckJob": {
+                        //查询订单
+                        result = orderHuicaiyqpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //跃创代付提款订单mq定时查询
+                    case "WithdrawOrderYuechuangiCheckJob": {
+                        //查询订单
+                        result = orderYuechuangService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //百联代付提款订单mq定时查询
+                    case "WithdrawOrderBailianpayiCheckJob": {
+                        //查询订单
+                        result = orderBailianpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //销天下代付提款订单mq定时查询
+                    case "WithdrawOrderTianxiapayiCheckJob": {
+                        //查询订单
+                        result = orderTianxiapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //YSB代付提款订单mq定时查询
+                    case "WithdrawOrderYsbpayiCheckJob": {
+                        //查询订单
+                        result = orderYsbpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //泛亚代付提款订单mq定时查询
+                    case "WithdrawOrderFanyapayiCheckJob": {
+                        //查询订单
+                        result = orderFanyapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //安然代付提款订单mq定时查询
+                    case "WithdrawOrderAnranpayiCheckJob": {
+                        //查询订单
+                        result = orderAnranpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //星usdt代付提款订单mq定时查询
+                    case "WithdrawOrderXingpayusdtiCheckJob": {
+                        //查询订单
+                        result = orderXingpayusdtService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //掂过碌蔗代付提款订单mq定时查询
+                    case "WithdrawOrderDianguoluzhepayiCheckJob": {
+                        //查询订单
+                        result = orderDianguoluzhepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //盛航代付提款订单mq定时查询
+                    case "WithdrawOrderShenghangpayiCheckJob": {
+                        //查询订单
+                        result = orderShenghangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //卡通代付提款订单mq定时查询
+                    case "WithdrawOrderKatongpayiCheckJob": {
+                        //查询订单
+                        result = orderKatongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //麒麟代付提款订单mq定时查询
+                    case "WithdrawOrderQilindfiCheckJob": {
+                        //查询订单
+                        result = orderQilindfService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //LT代付提款订单mq定时查询
+                    case "WithdrawOrderLtpayiCheckJob": {
+                        //查询订单
+                        result = orderLtpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //BL代付提款订单mq定时查询
+                    case "WithdrawOrderBldfiCheckJob": {
+                        //查询订单
+                        result = orderBldfService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //帮帮团提款订单mq定时查询
+                    case "WithdrawOrderBangBangAPICheckJob": {
+                        //查询订单
+                        result = orderBangBangService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //HY代付提款订单mq定时查询
+                    case "WithdrawOrderHydfiCheckJob": {
+                        //查询订单
+                        result = orderHydfService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 彩虹支付提款订单mq定时查询
+                    case "WithdrawOrderCaiHongCheckJob": {
+                        //查询订单
+                        result = orderCaiHongService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 顺付代付提款订单mq定时查询
+                    case "WithdrawOrderShunfupayiCheckJob": {
+                        //查询订单
+                        result = orderShunfupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 启付代付提款订单mq定时查询
+                    case "WithdrawOrderQifupayiCheckJob": {
+                        //查询订单
+                        result = orderQifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // KK代付提款订单mq定时查询
+                    case "WithdrawOrderKkpayiCheckJob": {
+                        //查询订单
+                        result = orderKkpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // DC支付提款订单mq定时查询
+                    case "WithdrawOrderDcPayCheckJob": {
+                        //查询订单
+                        result = orderDcPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        /*int orderStatus = thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO().getOrderStatus();
+                        // 特殊兼容DC
+                        notifyDto.setStatus(orderStatus);*/
+                        break;
+                    }
+                    // 蚂蚁代付提款订单mq定时查询
+                    case "WithdrawOrderMayidaifuiCheckJob": {
+                        //查询订单
+                        result = orderMayidaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 海达代付提款订单mq定时查询
+                    case "WithdrawOrderHaidapayiCheckJob": {
+                        //查询订单
+                        result = orderHaiDapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 九久代付提款订单mq定时查询
+                    case "WithdrawOrderJiuJiupayCheckJob": {
+                        //查询订单
+                        result = orderJiuJiupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 互联代付提款订单mq定时查询
+                    case "WithdrawOrderHuLianCheckJob": {
+                        //查询订单
+                        result = orderHuLianpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 自充代付提款订单mq定时查询
+                    case "WithdrawOrderzichongpayiCheckJob": {
+                        //查询订单
+                        result = orderzichongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Gpay代付提款订单mq定时查询
+                    case "WithdrawOrderGpayiCheckJob": {
+                        //查询订单
+                        result = orderGpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //恒昌支付代付提款订单mq定时查询
+                    case "WithdrawOrderHengchangpayiCheckJob": {
+                        //查询订单
+                        result = orderHengchangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //大吉利支付代付提款订单mq定时查询
+                    case "WithdrawOrderDajilipayiCheckJob": {
+                        //查询订单
+                        result = orderDajilipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //传化代付提款订单mq定时查询
+                    case "WithdrawOrderChuanhuadaifuiCheckJob": {
+                        //查询订单
+                        result = orderChuanhuadaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 妖怪支付-代付提款订单mq定时查询
+                    case "WithdrawOrderYaoGuaiPayCheckJob": {
+                        //查询订单
+                        result = orderYaoguaipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 帮帮支付3-代付提款订单mq定时查询
+                    case "WithdrawOrderbangbang3CheckJob": {
+                        //查询订单
+                        result = orderBangBang3Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // K2-usdt-代付提款订单mq定时查询
+                    case "WithdrawOrderK2PayCheckJob": {
+                        //查询订单
+                        result = orderK2PayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 薪火代付提款订单mq定时查询
+                    case "WithdrawOrderXinhuopayCheckJob": {
+                        //查询订单
+                        result = orderXinhuopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天空代付提款订单mq定时查询
+                    case "WithdrawOrderTianKongPayCheckJob": {
+                        //查询订单
+                        result = orderTianKongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 全民支付V2版 - 代付提款订单mq定时查询
+                    case "WithdrawOrderQuanMinPayCheckJob": {
+                        //查询订单
+                        result = orderQuanMinPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 美朝代付提款订单mq定时查询
+                    case "WithdrawOrderMeiChaoPayCheckJob": {
+                        //查询订单
+                        result = orderMeiChaoPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 顺付2代付提款订单mq定时查询
+                    case "WithdrawOrdershunfupay2CheckJob": {
+                        //查询订单
+                        result = orderShunfupay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //恒昌代付2提款订单mq定时查询
+                    case "WithdrawOrderhengchangpay2CheckJob": {
+                        //查询订单
+                        result = orderHengchangpay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // K2-usdt-代付提款订单mq定时查询
+                    case "WithdrawOrderK22PayCheckJob": {
+                        //查询订单
+                        result = orderK22PayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 月亮支付-支付宝网关-代付提款订单mq定时查询
+                    case "WithdrawOrderYueLiangpayCheckJob": {
+                        //查询订单
+                        result = orderYueLiangpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新卡通-代付提款订单mq定时查询
+                    case "WithdrawOrderXinKaTongPayCheckJob": {
+                        //查询订单
+                        result = orderXinKaTongService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // KRPay-代付提款订单mq定时查询
+                    case "WithdrawOrderKRPayCheckJob": {
+                        //查询订单
+                        result = orderKRPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //kitty代付提款订单mq定时查询
+                    case "WithdrawOrderKittypayCheckJob": {
+                        //查询订单
+                        result = orderKittypayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //汇发代付提款订单mq定时查询
+                    case "WithdrawOrderHuifapayCheckJob": {
+                        //查询订单
+                        result = orderHuifapayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //U付宝代付提款订单mq定时查询
+                    case "WithdrawOrderufupayCheckJob": {
+                        //查询订单
+                        result = orderUfupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //阳光代付提款订单mq定时查询
+                    case "WithdrawOrderYangguangpay2CheckJob": {
+                        //查询订单
+                        result = orderYangguangpay2Service.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //帮帮团大额代付
+                    case "WithdrawOrderbangbang4CheckJob": {
+                        //查询订单
+                        result = orderBangBang4Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //易宝2代付提款订单mq定时查询
+                    case "WithdrawOrderYibao2payiCheckJob": {
+                        result = orderYiBao2PayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //优快通代付提款订单mq定时查询
+                    case "WithdrawOrderYoukuaitongpayCheckJob": {
+                        result = orderYoukuaitongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //平安付代付提款订单mq定时查询
+                    case "WithdrawOrderPinganfupayCheckJob": {
+                        result = orderPinganfupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // ETPay - 代付提款订单mq定时查询
+                    case "WithdrawOrderETPayCheckJob": {
+                        result = etPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 绅付代付提款订单mq定时查询
+                    case "WithdrawOrderShenfupayiCheckJob": {
+                        result = orderShenfupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 逸云代付提款订单mq定时查询
+                    case "WithdrawOrderYiYunPayCheckJob": {
+                        result = orderYiYunPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 滴滴代付提款订单mq定时查询
+                    case "WithdrawOrderdidipayCheckJob": {
+                        result = orderDidipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 完美代付提款订单mq定时查询
+                    case "WithdrawOrderwangmeipayiCheckJob": {
+                        result = orderWanmeipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 众合代付提款订单mq定时查询
+                    case "WithdrawOrderZhongHePayCheckJob": {
+                        result = orderZhongHePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // cospay代付提款订单mq定时查询
+                    case "WithdrawOrdercospayCheckJob": {
+                        result = orderCospayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 星空代付提款订单mq定时查询
+                    case "WithdrawOrderXingKongPayCheckJob": {
+                        result = orderXingKongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 长安支付代付提款订单mq定时查询
+                    case "WithdrawOrderChanganpayiCheckJob": {
+                        //查询订单
+                        result = orderChanganpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 爱贝代付提款订单mq定时查询
+                    case "WithdrawOrderaibeipayCheckJob": {
+                        //查询订单
+                        result = orderAibeipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 汇才跑卡代付提款订单mq定时查询
+                    case "WithdrawOrderHuicaipkpayCheckJob": {
+                        //查询订单
+                        result = orderHuicaipkpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 盈嘉代付提款订单mq定时查询
+                    case "WithdrawOrderyinjiapayiCheckJob": {
+                        //查询订单
+                        result = orderYinjiapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 量子USDT代付提款订单mq定时查询
+                    case "WithdrawOrderliangziPayusdtCheckJob": {
+                        //查询订单
+                        result = orderLiangziUsdtPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  闪电代付提款订单mq定时查询
+                    case "WithdrawOrdershandianpayCheckJob": {
+                        //查询订单
+                        result = orderShandianpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //鲸鱼代付提款订单mq定时查询
+                    case "WithdrawOrderJingYuPayCheckJob": {
+                        //查询订单
+                        result = orderJingYuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 汇付宝下发订单mq定时查询
+                    case "WithdrawOrderHuiFuBaoPayCheckJob": {
+                        result = orderHuiFuBaoPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Spay转卡代付提款订单mq定时查询
+                    case "WithdrawOrderSpayZkCheckJob": {
+                        result = orderSpayZkService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 天长代付订单mq定时查询
+                    case "WithdrawOrdertianchangCheckJob": {
+                        result = orderTianchangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 海洋代付订单mq定时查询
+                    case "WithdrawOrderhangyangpayCheckJob": {
+                        result = orderHaiyangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //金喜代付订单mq定时查询
+                    case "WithdrawOrderjinxipayiCheckJob": {
+                        result = orderJinxipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //C代付订单mq定时查询
+                    case "WithdrawOrdercpayCheckJob": {
+                        result = orderCpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //大宝代付订单mq定时查询
+                    case "WithdrawOrderdabaopayCheckJob": {
+                        result = orderDabaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 帮帮支付5-代付提款订单mq定时查询
+                    case "WithdrawOrderbangbang5CheckJob": {
+                        //查询订单
+                        result = orderBangBang5Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 财付佳-代付提款订单mq定时查询
+                    case "WithdrawOrderCaiFuJiaPayiCheckJob": {
+                        //查询订单
+                        result = orderCaiFuJiaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 皇宫代付代付提款订单mq定时查询
+                    case "WithdrawOrderhuanggongpayCheckJob": {
+                        //查询订单
+                        result = orderHuanggongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 佳佳代付代付提款订单mq定时查询
+                    case "WithdrawOrderJiajiapayCheckJob": {
+                        //查询订单
+                        result = orderJiajiapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银河-代付提款订单mq定时查询
+                    case "WithdrawOrderYinHePayCheckJob": {
+                        //查询订单
+                        result = orderYinHePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天天-代付提款订单mq定时查询
+                    case "WithdrawOrderTianTianPayCheckJob": {
+                        //查询订单
+                        result = orderTianTianPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银付代付提款订单mq定时查询
+                    case "WithdrawOrderyinfupayCheckJob": {
+                        //查询订单
+                        result = orderYinfupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 联胜代付提款订单mq定时查询
+                    case "WithdrawOrderLianshengpayCheckJob": {
+                        //查询订单
+                        result = orderLianshengpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 佩奇代付提款订单mq定时查询
+                    case "WithdrawOrderPeiQiPayCheckJob": {
+                        //查询订单
+                        result = orderPeiQiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 飞马代付USDT提款订单mq定时查询
+                    case "WithdrawOrderfeimausdtpayCheckJob": {
+                        //查询订单
+                        result = orderFeimausdtpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 通信USDT代付USDT提款订单mq定时查询
+                    case "WithdrawOrderTongxingusdtpayCheckJob": {
+                        //查询订单
+                        result = orderTongXingUsdtPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 速付通代付提款订单mq定时查询
+                    case "WithdrawOrderSuFuTongPayCheckJob": {
+                        //查询订单
+                        result = orderSuFuTongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //金运通代付提款订单mq定时查询
+                    case "WithdrawOrderJinyuntongiCheckJob": {
+                        //查询订单
+                        result = orderJinyuntongService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //新联银代付提款订单mq定时查询
+                    case "WithdrawOrderxinliangyinpayCheckJob": {
+                        //查询订单
+                        result = orderXinLiangyinpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 安安支付 - 代付提款订单mq定时查询
+                    case "WithdrawOrderAnAnPayCheckJob": {
+                        //查询订单
+                        result = orderAnAnPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 三和 - 代付提款订单mq定时查询
+                    case "WithdrawOrderSanHePayCheckJob": {
+                        //查询订单
+                        result = sanHePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  东方代付提款订单mq定时查询
+                    case "WithdrawOrderdongfanpayCheckJob": {
+                        //查询订单
+                        result = orderDongfanpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  rich代付提款订单mq定时查询
+                    case "WithdrawOrderRichpayiCheckJob": {
+                        //查询订单
+                        result = orderRichpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  新rich代付提款订单mq定时查询
+                    case "WithdrawOrdeNewrichpayCheckJob": {
+                        //查询订单
+                        result = orderNewrichpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  fanhua提款订单mq定时查询
+                    case "WithdrawOrderfanhuapayCheckJob": {
+                        //查询订单
+                        result = orderFanhuapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  天远提款订单mq定时查询
+                    case "WithdrawOrdertianyuanpayCheckJob": {
+                        //查询订单
+                        result = orderTianyuanpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  Jiajia代付提款订单mq定时查询
+                    case "WithdrawOrderJiajiayqpayCheckJob": {
+                        //查询订单
+                        result = orderJiajiayqpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  众邦代付提款订单mq定时查询
+                    case "WithdrawOrderzhongbangpayCheckJob": {
+                        //查询订单
+                        result = orderZhongbangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  便捷代付提款订单mq定时查询
+                    case "WithdrawOrderBianJiePayCheckJob": {
+                        //查询订单
+                        result = orderBianJiePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  Galaxy代付提款订单mq定时查询
+                    case "WithdrawOrdergalaxypayCheckJob": {
+                        //查询订单
+                        result = orderGalaxyPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  盛世代付提款订单mq定时查询
+                    case "WithdrawOrdershengshipayCheckJob": {
+                        //查询订单
+                        result = orderShengShiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  申鑫代付提款订单mq定时查询
+                    case "WithdrawOrdershengxingpayCheckJob": {
+                        //查询订单
+                        result = orderShengxingpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  鸿宇代付提款订单mq定时查询
+                    case "WithdrawOrderhongyupayCheckJob": {
+                        //查询订单
+                        result = orderHongyupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  新阳光代付提款订单mq定时查询
+                    case "WithdrawOrderYangGuangNewPayCheckJob": {
+                        //查询订单
+                        result = orderYangGuangNewPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  盟重代付提款订单mq定时查询
+                    case "WithdrawOrderMengZhongPayCheckJob": {
+                        //查询订单
+                        result = orderMengZhongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  先锋代付提款订单mq定时查询
+                    case "WithdrawOrderxianfengPayCheckJob": {
+                        //查询订单
+                        result = orderXianfengPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  非凡代付提款订单mq定时查询
+                    case "WithdrawOrderfeifangpayCheckJob": {
+                        //查询订单
+                        result = orderFeifanPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  Dapay代付提款订单mq定时查询
+                    case "WithdrawOrderDapayCheckJob": {
+                        //查询订单
+                        result = orderDaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  财神代付提款订单mq定时查询
+                    case "WithdrawOrdercaishengpayCheckJob": {
+                        //查询订单
+                        result = orderCaishengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  皇朝代付提款订单mq定时查询
+                    case "WithdrawOrderHuangChaoPayCheckJob": {
+                        //查询订单
+                        result = orderHuangChaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  通付代付提款订单mq定时查询
+                    case "WithdrawOrdertongfupayCheckJob": {
+                        //查询订单
+                        result = orderTongfuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  新币币代付代付提款订单mq定时查询
+                    case "WithdrawOrderNewbibiPayCheckJob": {
+                        //查询订单
+                        result = orderNewbibiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  大河代付代付提款订单mq定时查询
+                    case "WithdrawOrderdahepayCheckJob": {
+                        //查询订单
+                        result = orderDaHePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  黄金叶代付代付提款订单mq定时查询
+                    case "WithdrawOrderHuangJinYepayCheckJob": {
+                        //查询订单
+                        result = orderHuangJinYePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  apple代付代付提款订单mq定时查询
+                    case "WithdrawOrdernewapplepayCheckJob": {
+                        //查询订单
+                        result = orderNewApplePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  质远代付提款订单mq定时查询
+                    case "WithdrawOrderzhiyuanpayCheckJob": {
+                        //查询订单
+                        result = orderZhiYuanPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // lv代付提款订单mq定时查询
+                    case "WithdrawOrdernewLvCheckJob": {
+                        //查询订单
+                        result = orderLvPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 东升代付提款订单mq定时查询
+                    case "WithdrawOrderdongshengpayCheckJob": {
+                        //查询订单
+                        result = orderDongShengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 米宝代付提款订单mq定时查询
+                    case "WithdrawOrdermibaoPayCheckJob": {
+                        //查询订单
+                        result = orderMiBaoPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 星乐代付提款订单mq定时查询
+                    case "WithdrawOrderxinlePayCheckJob": {
+                        //查询订单
+                        result = orderXingLePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // FastPay代付提款订单mq定时查询
+                    case "WithdrawOrderFastPayCheckJob": {
+                        //查询订单
+                        result = orderFastPayPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  通达代付提款订单mq定时查询
+                    case "WithdrawOrdertongdapayCheckJob": {
+                        //查询订单
+                        result = orderTongfuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  U付代付提款订单mq定时查询
+                    case "WithdrawOrderupayCheckJob": {
+                        //查询订单
+                        result = orderUPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  汇通代付提款订单mq定时查询
+                    case "WithdrawOrderhuitongpayiCheckJob": {
+                        //查询订单
+                        result = orderHuiTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  ETC付代付提款订单mq定时查询
+                    case "WithdrawETCPayCheckJob": {
+                        //查询订单
+                        result = orderEtcPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  鸿鹄付代付提款订单mq定时查询
+                    case "WithdrawOrderhonghupayiCheckJob": {
+                        //查询订单
+                        result = orderHongHuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  五方付代付提款订单mq定时查询
+                    case "WithdrawOrderWuFangpayCheckJob": {
+                        //查询订单
+                        result = orderWuFangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  聚付付代付提款订单mq定时查询
+                    case "WithdrawOrderJufupayCheckJob": {
+                        //查询订单
+                        result = orderJuFupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  申鑫代付2提款订单mq定时查询
+                    case "WithdrawOrdershengxingpay2CheckJob": {
+                        //查询订单
+                        result = orderShengxingpay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 达伦代付提款订单mq定时查询
+                    case "WithdrawOrderdalunpayCheckJob": {
+                        //查询订单
+                        result = orderDaLunPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 富发宝代付提款订单mq定时查询
+                    case "WithdrawOrderfufabaopayCheckJob": {
+                        //查询订单
+                        result = orderFuFabaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 安付代付提款订单mq定时查询
+                    case "WithdrawOrderAnfupayCheckJob": {
+                        //查询订单
+                        result = orderAnfupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 方圆代付提款订单mq定时查询
+                    case "WithdrawOrderFangyuanpayiCheckJob": {
+                        //查询订单
+                        result = orderFangyuanpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 发财代付提款订单mq定时查询
+                    case "WithdrawOrderfacaiPayCheckJob": {
+                        //查询订单
+                        result = orderFaCaiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 优易付代付提款订单mq定时查询
+                    case "WithdrawOrderYouYiFuPayCheckJob": {
+                        //查询订单
+                        result = orderYouYiFuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 云哥代付提款订单mq定时查询
+                    case "WithdrawOrderyungeCheckJob": {
+                        //查询订单
+                        result = orderYunGePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // DU代付提款订单mq定时查询
+                    case "WithdrawOrderdupayCheckJob": {
+                        //查询订单
+                        result = orderDuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // sc1668代付提款订单mq定时查询
+                    case "WithdrawOrdersc1668payCheckJob": {
+                        //查询订单
+                        result = orderSc1668payService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 蓝天代付提款订单mq定时查询
+                    case "WithdrawLanTianPayCheckJob": {
+                        //查询订单
+                        result = orderLanTianPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // easyPay代付提款订单mq定时查询
+                    case "WithdrawOrderEasyPayCheckJob": {
+                        //查询订单
+                        result = orderEasyPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 吉祥代付提款订单mq定时查询
+                    case "WithdrawOrderJiXiangPayCheckJob": {
+                        //查询订单
+                        result = orderJiXiangPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // panda代付提款订单mq定时查询
+                    case "WithdrawOrderPanDaPayCheckJob": {
+                        //查询订单
+                        result = orderPanDaPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 展鸿代付提款订单mq定时查询
+                    case "WithdrawOrderZhanHongPayCheckJob": {
+                        //查询订单
+                        result = orderZhanHongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大西瓜代付提款订单mq定时查询
+                    case "WithdrawOrderdaxiguapayCheckJob": {
+                        //查询订单
+                        result = orderDaXiGuaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 旭日代付提款订单mq定时查询
+                    case "WithdrawOrderxuripayCheckJob": {
+                        //查询订单
+                        result = orderXuRiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 美朝V2代付提款订单mq定时查询
+                    case "WithdrawOrderMeiChaoV2PayCheckJob": {
+                        //查询订单
+                        result = orderMeiChaoV2PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 贝壳代付USDT提款订单mq定时查询
+                    case "WithdrawOrderBeikeusdtpayCheckJob": {
+                        //查询订单
+                        result = orderBeikeusdtpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // hayyp代付提款订单mq定时查询
+                    case "WithdrawOrderHappypayCheckJob": {
+                        //查询订单
+                        result = orderHappypayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // imtok代付提款订单mq定时查询
+                    case "WithdrawOrderImTokPayCheckJob": {
+                        //查询订单
+                        result = orderImTokPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 熊猫代付提款订单mq定时查询
+                    case "WithdrawOrderxiongmaopayCheckJob": {
+                        //查询订单
+                        result = orderXiongMaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Today代付提款订单mq定时查询
+                    case "WithdrawOrderToDayPayCheckJob": {
+                        //查询订单
+                        result = orderToDayPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 百盛代付提款订单mq定时查询
+                    case "WithdrawOrderbaishengpayCheckJob": {
+                        //查询订单
+                        result = orderBaiShengPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // smartypay代付提款订单mq定时查询
+                    case "WithdrawOrdersmartypayCheckJob": {
+                        //查询订单
+                        result = orderSmartPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 同舟代付提款订单mq定时查询
+                    case "WithdrawOrderTongZhoupayCheckJob": {
+                        //查询订单
+                        result = orderTongZhouPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 恒瑞代付订单mq定时查询
+                    case "WithdrawOrderhengruipayCheckJob": {
+                        result = orderHengruipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 必牛代付订单mq定时查询
+                    case "WithdrawOrderbiniupayCheckJob": {
+                        result = orderBiniupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鸿飞代付订单mq定时查询
+                    case "WithdrawOrderHongFeiPayCheckJob": {
+                        result = orderHongFeiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 海诚银企代付订单mq定时查询
+                    case "WithdrawOrderHaichengpayCheckJob": {
+                        result = orderHaichengpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    // 龙行代付订单mq定时查询
+                    case "WithdrawOrderlongxingpayCheckJob": {
+                        result = orderLongXingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 刘德华代付订单mq定时查询
+                    case "WithdrawOrderliudehuapayCheckJob": {
+                        result = orderLiuDeHuaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大胜代付订单mq定时查询
+                    case "WithdrawOrderdashengpayCheckJob": {
+                        result = orderDaShengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大利付宝钱包（USDT)代付订单mq定时查询
+                    case "WithdrawOrderlifuqianbaoCheckJob": {
+                        result = orderLifuqianbaoService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 起源代付（USDT)代付订单mq定时查询
+                    case "WithdrawOrderqiyuanpayCheckJob": {
+                        result = orderQiYuanPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 飞翔代付订单mq定时查询
+                    case "WithdrawOrderFeiXiangpayCheckJob": {
+                        result = orderFeiXiangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 敏付支付代付订单mq定时查询
+                    case "WithdrawOrderMinfupayCheckJob": {
+                        result = orderMinfupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 地久代付订单mq定时查询
+                    case "WithdrawOrderdijiupayCheckJob": {
+                        result = orderDiJiuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // shanshan代付订单mq定时查询
+                    case "WithdrawOrdershanshanpayCheckJob": {
+                        result = orderShanShanPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // m518代付订单mq定时查询
+                    case "WithdrawOrderm518payiCheckJob": {
+                        result = orderM518PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 帝宝代付订单mq定时查询
+                    case "WithdrawOrderdibaopayCheckJob": {
+                        result = orderDiBaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  质远2代付提款订单mq定时查询
+                    case "WithdrawOrderzhiyuan2payCheckJob": {
+                        //查询订单
+                        result = orderZhiYuan2PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 盖亚代付订单mq定时查询
+                    case "WithdrawOrdergaiyapayCheckJob": {
+                        result = orderGaiyapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 蚂蚁代付订单mq定时查询
+                    case "WithdrawOrdermayipayCheckJob": {
+                        result = orderNewMaYiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 福运通代付订单mq定时查询
+                    case "WithdrawOrderfuyuntongpayCheckJob": {
+                        result = orderFuYunTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小小代付订单mq定时查询
+                    case "WithdrawOrderXiaoXiaoPayCheckJob": {
+                        result = orderXiaoXiaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天顺代付订单mq定时查询
+                    case "WithdrawOrdertianshunpayCheckJob": {
+                        result = orderTianShunPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 万国代付订单mq定时查询
+                    case "WithdrawOrderwanguopayCheckJob": {
+                        result = orderWanGuoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鸿途代付订单mq定时查询
+                    case "WithdrawOrderhongtupayCheckJob": {
+                        result = orderHongTuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 滴付代付订单mq定时查询
+                    case "WithdrawOrderdifupayCheckJob": {
+                        result = orderDiFuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 钱宝代付订单mq定时查询
+                    case "WithdrawOrderQianbaodaifupayiCheckJob": {
+                        result = orderQianbaodaifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 亚希代付订单mq定时查询
+                    case "WithdrawOrderyaxiPayCheckJob": {
+                        result = orderYaXiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天狼代付订单mq定时查询
+                    case "WithdrawOrderTianlangpayCheckJob": {
+                        result = orderTianlangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // uupay代付订单mq定时查询
+                    case "WithdrawOrderuupayPayCheckJob": {
+                        result = orderUuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 丝金代付订单mq定时查询
+                    case "WithdrawOrdersijinpayCheckJob": {
+                        result = orderSijinpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新闪电代付订单mq定时查询
+                    case "WithdrawOrderXinShanDianPayiCheckJob": {
+                        result = orderXinShanDianPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 神威银企代付订单mq定时查询
+                    case "WithdrawOrderShenweiyinqipayPayCheckJob": {
+                        result = orderShenweiyinqipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鑫呈代付提款订单mq定时查询
+                    case "WithdrawOrderxinchengpayCheckJob": {
+                        //查询订单
+                        result = orderXinchengpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //Silkpay365代付提款订单mq定时查询
+                    case "WithdrawOrderSilkpay365CheckJob": {
+                        //查询订单
+                        result = orderSilkpay365Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天一代付提款订单mq定时查询
+                    case "WithdrawOrdertianyipayCheckJob": {
+                        //查询订单
+                        result = orderTianYiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 荣创代付提款订单mq定时查询
+                    case "WithdrawOrderrongchuangpayCheckJob": {
+                        //查询订单
+                        result = orderRongchuangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // aupay代付提款订单mq定时查询
+                    case "WithdrawOrderAupayiCheckJob": {
+                        //查询订单
+                        result = orderAupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鸿运通代付提款订单mq定时查询
+                    case "WithdrawOrderhongyuntongpayCheckJob": {
+                        //查询订单
+                        result = orderHongYunTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 雪菜代付提款订单mq定时查询
+                    case "WithdrawOrderXuecaipayiCheckJob": {
+                        //查询订单
+                        result = orderXuecaipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小小2代付提款订单mq定时查询
+                    case "WithdrawOrderXiaoXiaoPay2CheckJob": {
+                        //查询订单
+                        result = orderXiaoXiaoPay2Service.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 魔力代付提款订单mq定时查询
+                    case "WithdrawOrderMoLiPayCheckJob": {
+                        //查询订单
+                        result = orderMoLiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 零零幺代付订单mq定时查询
+                    case "WithdrawOrderlinglingyaopayCheckJob": {
+                        result = orderLinglingyaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 优讯代付订单mq定时查询
+                    case "WithdrawOrderyouxunpayCheckJob": {
+                        result = orderYouxunpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 水滴代付订单mq定时查询
+                    case "WithdrawOrderShuiDiPayCheckJob": {
+                        result = orderShuiDiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  黄河代付提款订单mq定时查询
+                    case "WithdrawOrderHuangHepayCheckJob": {
+                        //查询订单
+                        result = orderHuangHePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  彗星代付提款订单mq定时查询
+                    case "WithdrawOrderHuiXingpayCheckJob": {
+                        //查询订单
+                        result = orderHuiXingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  沫沫代付提款订单mq定时查询
+                    case "WithdrawOrdermomopayCheckJob": {
+                        result = orderMomoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  宝通代付提款订单mq定时查询
+                    case "WithdrawOrderbaotongpayiCheckJob": {
+                        result = orderBaoTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // QF支付代付提款订单mq定时查询
+                    case "WithdrawOrderQFpayiCheckJob": {
+                        result = orderQFpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 西虹市代付提款订单mq定时查询
+                    case "WithdrawOrderXihongshipayCheckJob": {
+                        result = orderXihongshipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鲨鱼代付提款订单mq定时查询
+                    case "WithdrawOrderShaYuPayCheckJob": {
+                        result = orderShaYuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 安全代付提款订单mq定时查询
+                    case "WithdrawOrderAnQuanPayCheckJob": {
+                        result = orderAnQuanPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 威登代付提款订单mq定时查询
+                    case "WithdrawOrderWeiDengPayCheckJob": {
+                        result = orderWeiDengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 辉煌代付提款订单mq定时查询
+                    case "WithdrawOrderHuiHuangPayCheckJob": {
+                        result = orderHuiHuangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 信付通2代付提款订单mq定时查询
+                    case "WithdrawOrderXinfutongpay2iCheckJob": {
+                        result = orderXinfutongpay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 蓝光支付代付提款订单mq定时查询
+                    case "WithdrawOrderLanguangpayCheckJob": {
+                        result = orderLanguangpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 祥云支付代付提款订单mq定时查询
+                    case "WithdrawOrderXiangYunPayCheckJob": {
+                        result = orderXiangYunPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 龙游天下代付提款订单mq定时查询
+                    case "WithdrawOrderlongyoutianxiapayCheckJob": {
+                        result = orderLongyoutianxiapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 花呗通代付提款订单mq定时查询
+                    case "WithdrawOrderHuaBeiTongPayCheckJob": {
+                        result = orderHuaBeiTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 爱农代付提款订单mq定时查询
+                    case "WithdrawOrderAiNongPayCheckJob": {
+                        result = orderAiNongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 优快通支付2代付提款订单mq定时查询
+                    case "WithdrawOrderYoukuaitongpay2iCheckJob": {
+                        result = orderYoukuaitongpay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // LS600支付代付提款订单mq定时查询
+                    case "WithdrawOrderLS600PayCheckJob": {
+                        result = orderLS600PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 海二支付代付提款订单mq定时查询
+                    case "WithdrawOrderHaiErpayCheckJob": {
+                        result = orderHaiErPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 火星支付代付提款订单mq定时查询
+                    case "WithdrawOrderHuoXingPayCheckJob": {
+                        result = orderHuoXingPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 达伦银企支付代付提款订单mq定时查询
+                    case "WithdrawOrderDalunyinqipayCheckJob": {
+                        result = orderDalunyinqipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Hold支付代付提款订单mq定时查询
+                    case "WithdrawOrderHoldPayCheckJob": {
+                        result = orderHoldPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // angle支付支付代付提款订单mq定时查询
+                    case "WithdrawOrderAnglePayCheckJob": {
+                        result = orderAnglePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // pos支付代付提款订单mq定时查询
+                    case "WithdrawOrderPospayCheckJob": {
+                        result = posPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // TD支付代付提款订单mq定时查询
+                    case "WithdrawOrderTDpayiCheckJob": {
+                        //查询订单
+                        result = orderTDpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // GoldenMoney代付提款订单mq定时查询
+                    case "WithdrawOrderGoldenMoneyPayiCheckJob": {
+                        //查询订单
+                        result = orderGoldenMoneyPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // AiPay代付提款订单mq定时查询
+                    case "WithdrawAIPayCheckJob": {
+                        //查询订单
+                        result = orderAiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银河支付2代付提款订单mq定时查询
+                    case "WithdrawOrderYinhepay2CheckJob": {
+                        result = orderYinhepay2Service.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小易代付提款订单mq定时查询
+                    case "WithdrawOrderXiaoyipayiCheckJob": {
+                        result = orderXiaoyipaypayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Bpay支付代付提款订单mq定时查询
+                    case "WithdrawOrderbpayCheckJob": {
+                        result = orderBpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 通信代付提款订单mq定时查询
+                    case "WithdrawOrderTongxingpayCheckJob": {
+                        //查询订单
+                        result = orderTongXingPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 时光代付提款订单mq定时查询
+                    case "WithdrawOrderShiGuangPayCheckJob": {
+                        //查询订单
+                        result = orderShiGuangPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 盛世代付提款订单mq定时查询
+                    case "WithdrawOrderShengShiCheckJob": {
+                        //查询订单
+                        result = orderShengShiPay2Service.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 牛气冲天代付提款订单mq定时查询
+                    case "WithdrawOrderniuqichongtianpayCheckJob": {
+                        //查询订单
+                        result = orderNiuqichongtianpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // QuickqPay代付提款订单mq定时查询
+                    case "WithdrawOrderQuickqPayCheckJob": {
+                        //查询订单
+                        result = orderQuickqPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 亿隆代付提款订单mq定时查询
+                    case "WithdrawYiLongPayCheckJob": {
+                        //查询订单
+                        result = orderYiLongPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 无极代付提款订单mq定时查询
+                    case "WithdrawOrderWuJipayCheckJob": {
+                        //查询订单
+                        result = orderWuJipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //天跃代付提款订单mq定时查询
+                    case "WithdrawOrderTianyuepayiCheckJob": {
+                        //查询订单
+                        result = orderTianyuepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //草莓代付提款订单mq定时查询
+                    case "WithdrawOrderCaoMeiPayCheckJob": {
+                        //查询订单
+                        result = orderCaoMeiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //新地久代付提款订单mq定时查询
+                    case "WithdrawOrderNewDiJiuPayCheckJob": {
+                        //查询订单
+                        result = orderNewDiJiuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //金诚代付提款订单mq定时查询
+                    case "WithdrawOrderJinChengPayCheckJob": {
+                        //查询订单
+                        result = orderJinChengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //黑桃A代付提款订单mq定时查询
+                    case "WithdrawOrderHeitaoadaifuiCheckJob": {
+                        //查询订单
+                        result = orderHeitaoadaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //鸿途微信代付提款订单mq定时查询
+                    case "WithdrawOrderHongTuWeChatpayCheckJob": {
+                        //查询订单
+                        result = orderHongTuWeChatPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 合信代付提款订单mq定时查询
+                    case "WithdrawOrderHeXinPayCheckJob": {
+                        //查询订单
+                        result = heXinService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新恒瑞代付提款订单mq定时查询
+                    case "WithdrawOrdernewhengruipayCheckJob": {
+                        //查询订单
+                        result = orderNewHengRuiService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 信付通USDT代付提款订单mq定时查询
+                    case "WithdrawOrderXinfutongusdtpayiCheckJob": {
+                        //查询订单
+                        result = orderXinFuTongUsdtPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天浥赢代付提款订单mq定时查询
+                    case "WithdrawOrderTianYiYingPayiCheckJob": {
+                        //查询订单
+                        result = orderTianYiYingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 雅博支付代付提款订单mq定时查询
+                    case "WithdrawOrderYabopayCheckJob": {
+                        //查询订单
+                        result = orderYabopayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 嘉银代付提款订单mq定时查询
+                    case "WithdrawOrderJiaYingPayiCheckJob": {
+                        //查询订单
+                        result = orderJiaYingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 问鼎代付提款订单mq定时查询
+                    case "WithdrawOrderWenDingPayCheckJob": {
+                        //查询订单
+                        result = orderWenDingPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 永乐代付提款订单mq定时查询
+                    case "WithdrawOrderYongLePayCheckJob": {
+                        //查询订单
+                        result = orderYongLePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 钻石代付提款订单mq定时查询
+                    case "WithdrawOrderZuanShipayCheckJob": {
+                        //查询订单
+                        result = orderZuanShiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 金诚商贸代付提款订单mq定时查询
+                    case "WithdrawOrderJinChengSMPayCheckJob": {
+                        //查询订单
+                        result = orderJinChengSMPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 永盛代付提款订单mq定时查询
+                    case "WithdrawOrderYongShengPayCheckJob": {
+                        //查询订单
+                        result = orderYongShengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 享运代付提款订单mq定时查询
+                    case "WithdrawOrderLYXiangYunPayCheckJob": {
+                        //查询订单
+                        result = orderLYXiangYunPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鼎盛代付提款订单mq定时查询
+                    case "WithdrawOrderDingShengPayCheckJob": {
+                        //查询订单
+                        result = orderDingShengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天付通代付提款订单mq定时查询
+                    case "WithdrawOrderTianFuTongpayiCheckJob": {
+                        //查询订单
+                        result = orderTianFuTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // uspay代付提款订单mq定时查询
+                    case "WithdrawOrderUsPayCheckJob": {
+                        //查询订单
+                        result = orderUsPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 龙代付提款订单mq定时查询
+                    case "WithdrawOrderlongpayCheckJob": {
+                        //查询订单
+                        result = orderLongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 聚代付提款订单mq定时查询
+                    case "WithdrawOrderJupayCheckJob": {
+                        //查询订单
+                        result = orderJuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 前程代付提款订单mq定时查询
+                    case "WithdrawOrderQianChengPayCheckJob": {
+                        //查询订单
+                        result = orderQianChengPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 利好代付提款订单mq定时查询
+                    case "WithdrawOrderLiHaoPayCheckJob": {
+                        //查询订单
+                        result = orderLiHaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 永恒代付提款订单mq定时查询
+                    case "WithdrawOrderYongHengPayCheckJob": {
+                        //查询订单
+                        result = orderYongHengPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 海图代付提款订单mq定时查询
+                    case "WithdrawOrderHaiTuPayCheckJob": {
+                        //查询订单
+                        result = orderHaiTuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新顺付代付提款订单mq定时查询
+                    case "WithdrawOrderNewShunFuPayCheckJob": {
+                        //查询订单
+                        result = orderNewShunFuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 亿发代付提款订单mq定时查询
+                    case "WithdrawOrderYiFaPayCheckJob": {
+                        //查询订单
+                        result = orderYiFaPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 长江代付提款订单mq定时查询
+                    case "WithdrawOrderChangJiangPayCheckJob": {
+                        //查询订单
+                        result = orderChangJiangPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 恒瑞1代付提款订单mq定时查询
+                    case "WithdrawOrderhengrui1payCheckJob": {
+                        //查询订单
+                        result = orderHengrui1payService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小强付提款订单mq定时查询
+                    case "WithdrawOrderXiaoQiangPayiCheckJob": {
+                        //查询订单
+                        result = orderXiaoQiangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 王者付提款订单mq定时查询
+                    case "WithdrawWangZhePayCheckJob": {
+                        //查询订单
+                        result = orderWangZhePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 恒星付提款订单mq定时查询
+                    case "WithdrawHengXingPayCheckJob": {
+                        //查询订单
+                        result = orderHengXingPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 金九付提款订单mq定时查询
+                    case "WithdrawOrderJinJiuPayCheckJob": {
+                        //查询订单
+                        result = orderJinJiuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新帝弼赢提款订单mq定时查询
+                    case "WithdrawOrderDiBiYing2payCheckJob": {
+                        //查询订单
+                        result = orderDiBiYing2PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 哈雷代付提款订单mq定时查询
+                    case "WithdrawOrderHaLeipayCheckJob": {
+                        //查询订单
+                        result = orderHaLeiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 星星代付提款订单mq定时查询
+                    case "WithdrawOrderXingXingPayCheckJob": {
+                        //查询订单
+                        result = orderXingXingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 首信易代付提款订单mq定时查询
+                    case "WithdrawOrderShouXinYiPayiCheckJob": {
+                        //查询订单
+                        result = orderShouXinYiPaypayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鸿成支付代付订单mq定时查询
+                    case "WithdrawOrderhongchengpayCheckJob": {
+                        result = orderHongchengpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 六福珠宝代付提款订单mq定时查询
+                    case "WithdrawOrderLiufuzhubaopayiCheckJob": {
+                        result = orderLiufuzhubaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新好牛代付提款订单mq定时查询
+                    case "WithdrawOrderNewHaoNiuPayCheckJob": {
+                        result = orderNewHaoNiuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 打更人支付代付提款订单mq定时查询
+                    case "WithdrawOrderDagengrenpayCheckJob": {
+                        result = orderDagengrenpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // shande云闪付代付提款订单mq定时查询
+                    case "WithdrawOrderShandepayCheckJob": {
+                        result = orderShandepayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 长盛支付付代付提款订单mq定时查询
+                    case "WithdrawOrderchangshengpayCheckJob": {
+                        result = orderChangshengpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 伽码支付付代付提款订单mq定时查询
+                    case "WithdrawOrderGaMapayCheckJob": {
+                        result = orderGaMaPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 迪拜支付付代付提款订单mq定时查询
+                    case "WithdrawOrderdibaipayCheckJob": {
+                        result = orderDiBaiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Bitpie支付付代付提款订单mq定时查询
+                    case "WithdrawOrderBitpiePayCheckJob": {
+                        result = orderBitpiePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 远达支付付代付提款订单mq定时查询
+                    case "WithdrawOrderyuandapayCheckJob": {
+                        result = orderYuanDaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Ht付代付提款订单mq定时查询
+                    case "WithdrawOrderhtpayCheckJob": {
+                        result = orderHtUsdtPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // JMoney代付提款订单mq定时查询
+                    case "WithdrawOrderJMoneyPayiCheckJob": {
+                        result = orderJMoneyPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 黑猫代付提款订单mq定时查询
+                    case "WithdrawOrderHeiMaoPayCheckJob": {
+                        result = orderHeiMaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //小鹅支付代付提款订单mq定时查询
+                    case "WithdrawOrderXiaoepayiCheckJob": {
+                        result = orderXiaoepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 亨通代付代付提款订单mq定时查询
+                    case "WithdrawOrderhengtongpayCheckJob": {
+                        //查询订单
+                        result = orderHengTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  天恒订单mq定时查询
+                    case "WithdrawOrdertianhengdaifuCheckJob": {
+                        //查询订单
+                        result = orderTianhengdaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  hanyin订单mq定时查询
+                    case "WithdrawHanYinPayCheckJob": {
+                        //查询订单
+                        result = orderHanYinPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  路通代付订单mq定时查询
+                    case "WithdrawOrderLuTongPayiCheckJob": {
+                        //查询订单
+                        result = orderLuTongPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  信汇代付订单mq定时查询
+                    case "WithdrawOrderXinHuiPayCheckJob": {
+                        //查询订单
+                        result = orderXinHuiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  新黄河代付订单mq定时查询
+                    case "WithdrawOrderNewHuangHePayCheckJob": {
+                        //查询订单
+                        result = orderNewHuangHePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  jiejie代付订单mq定时查询
+                    case "WithdrawOrderjiejiepayCheckJob": {
+                        //查询订单
+                        result = orderJieJiePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+
+                    //  热血代付订单mq定时查询
+                    case "WithdrawOrderReXuePayCheckJob": {
+                        //查询订单
+                        result = orderReXuePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  前进代付订单mq定时查询
+                    case "WithdrawOrderQianJinPayCheckJob": {
+                        //查询订单
+                        result = orderQianJinPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  快支付代付订单mq定时查询
+                    case "WithdrawKuaiZhiFuPayCheckJob": {
+                        //查询订单
+                        result = orderKuaiZhiFuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  奕皇代付订单mq定时查询
+                    case "WithdrawOrderYiHuangPayCheckJob": {
+                        //查询订单
+                        result = orderYiHuangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 21世纪代付订单mq定时查询
+                    case "WithdrawOrder21shijipayCheckJob": {
+                        result = order21ShijipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 腾飞支付代付订单mq定时查询
+                    case "WithdrawOrderTengfeipayCheckJob": {
+                        result = orderTengfeipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 运势支付代付订单mq定时查询
+                    case "WithdrawOrderYunShiPayCheckJob": {
+                        result = orderYunShiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //嘿嘿支付代付订单mq定时查询
+                    case "WithdrawOrderHeiheiPayCheckJob": {
+                        result = orderHeiheiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //利赢支付代付订单mq定时查询
+                    case "WithdrawOrderLiYingPayCheckJob": {
+                        result = orderLiYingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //qianduoduo支付代付订单mq定时查询
+                    case "WithdrawOrderQianduoduopayCheckJob": {
+                        result = orderQianduoduopayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //耶稣支付代付订单mq定时查询
+                    case "WithdrawOrderYeSuPayCheckJob": {
+                        result = orderYeSuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //太阳支付代付订单mq定时查询
+                    case "WithdrawOrderTaiYangPayCheckJob": {
+                        result = orderTaiYangPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //星辰支付代付订单mq定时查询
+                    case "WithdrawOrderXinChenPay2CheckJob": {
+                        result = orderXingChenPay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //鸿途微信代付提款订单mq定时查询
+                    case "WithdrawOrderLingHangpayCheckJob": {
+                        //查询订单
+                        result = orderLingHangPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //亿达代付提款订单mq定时查询
+                    case "WithdrawOrderYiDaPayCheckJob": {
+                        //查询订单
+                        result = orderYiDaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //PLGPAY支付代付提款订单mq定时查询
+                    case "WithdrawOrderPlgpayCheckJob": {
+                        //查询订单
+                        result = orderPlgpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //综合代付提款订单mq定时查询
+                    case "WithdrawOrderZongHePayCheckJob": {
+                        //查询订单
+                        result = orderZongHePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //大心支付代付提款订单mq定时查询
+                    case "WithdrawOrderDaXinPayCheckJob": {
+                        //查询订单
+                        result = orderDaXinPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //卡转卡支付代付提款订单mq定时查询
+                    case "WithdrawOrderKaZhuangKaPayCheckJob": {
+                        //查询订单
+                        result = orderKaZhuangKaPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //卡代付代付提款订单mq定时查询
+                    case "WithdrawOrderkadaifuCheckJob": {
+                        //查询订单
+                        result = orderKadaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //泰山商贸代付提款订单mq定时查询
+                    case "WithdrawOrderTaiShanSmPayCheckJob": {
+                        //查询订单
+                        result = orderTaiShanSMPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //平安付支付2代付提款订单mq定时查询
+                    case "WithdrawOrderpinganfupay2CheckJob": {
+                        //查询订单
+                        result = orderPinganfupay2Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //哈哈代付提款订单mq定时查询
+                    case "WithdrawOrderHaHaPayCheckJob": {
+                        //查询订单
+                        result = orderHaHaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //安全2代付提款订单mq定时查询
+                    case "WithdrawOrderAnQuan2PayCheckJob": {
+                        //查询订单
+                        result = orderAnQuan2PayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //星星代付提款订单mq定时查询
+                    case "WithdrawOrdeNewXingXingPayiCheckJob": {
+                        //查询订单
+                        result = orderNewXingXingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //虎付代付提款订单mq定时查询
+                    case "WithdrawOrderHuFuPayiCheckJob": {
+                        //查询订单
+                        result = orderHuFuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大奉代付提款订单mq定时查询
+                    case "WithdrawOrderDafengpayCheckJob": {
+                        //查询订单
+                        result = orderDafengpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 起点代付提款订单mq定时查询
+                    case "WithdrawOrderQiDianPayCheckJob": {
+                        //查询订单
+                        result = orderQiDianPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新飞马代付提款订单mq定时查询
+                    case "WithdrawOrderNewFeiMaUsdtPayCheckJob": {
+                        //查询订单
+                        result = orderNewFeiMaUsdtPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 壹支付代付提款订单mq定时查询
+                    case "WithdrawOrderyizhifupayCheckJob": {
+                        //查询订单
+                        result = orderYizhifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 沈海支付付代付提款订单mq定时查询
+                    case "WithdrawOrderShenhaipayCheckJob": {
+                        //查询订单
+                        result = orderShenhaipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 聚合码付支付付代付提款订单mq定时查询
+                    case "WithdrawOrderJuHeMapayiCheckJob": {
+                        //查询订单
+                        result = orderJuHeMaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 咸鱼支付付代付提款订单mq定时查询
+                    case "WithdrawOrderXianyupayCheckJob": {
+                        //查询订单
+                        result = orderXianyupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银富通代付订单mq定时查询
+                    case "WithdrawOrderYinfutongdaifuCheckJob": {
+                        result = yinfutongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //CH快捷支付代付订单mq定时查询
+                    case "WithdrawOrderChkuaijiepayiCheckJob": {
+                        result = orderChkuaijiepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //元鼎代付订单mq定时查询
+                    case "WithdrawOrderYuanDingPayCheckJob": {
+                        result = orderYuanDingPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 天韵代付提款订单mq定时查询
+                    case "WithdrawOrderTianyunpayCheckJob": {
+                        //查询订单
+                        result = orderTianyunpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  盈嘉付代付提款订单mq定时查询
+                    case "WithdrawOrderYingJiaFuPayXDCheckJob": {
+                        //查询订单
+                        result = orderYingJiaFuPayXDService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大哥代付订单mq定时查询
+                    case "WithdrawOrderdagepayCheckJob": {
+                        result = orderDagepayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 老表代付提款订单mq定时查询
+                    case "WithdrawOrderLaobiaopayCheckJob": {
+                        //查询订单
+                        result = orderLaobiaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银付宝代付提款订单mq定时查询
+                    case "WithdrawOrderYinFuBaoPayCheckJob": {
+                        //查询订单
+                        result = orderYinFuBaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //WB44代付提款订单mq定时查询
+                    case "WithdrawOrderWB44PayCheckJob": {
+                        //查询订单
+                        result = orderWb44PayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //成立代付提款订单mq定时查询
+                    case "WithdrawOrderChengLiPayiCheckJob": {
+                        //查询订单
+                        result = orderChengLiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //法国代付提款订单mq定时查询
+                    case "WithdrawOrderFaGuoPayiCheckJob": {
+                        //查询订单
+                        result = orderFaGuoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //鑫鑫三方支付代付提款订单mq定时查询
+                    case "WithdrawOrderXinxinsanfangpayCheckJob": {
+                        //查询订单
+                        result = orderXinxinsanfangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 起点代付2提款订单mq定时查询
+                    case "WithdrawOrderQiDianPay2CheckJob": {
+                        //查询订单
+                        result = orderQiDianPay2Service.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 杉德代付提款订单mq定时查询
+                    case "WithdrawOrderShanDePayByDomesticIPPayCheckJob": {
+                        //查询订单
+                        result = orderShanDePayByDomesticIPService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 林达代付提款订单mq定时查询
+                    case "WithdrawOrderLingDapayCheckJob": {
+                        //查询订单
+                        result = orderLingDaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新银付宝代付提款订单mq定时查询
+                    case "WithdrawOrderNewYinFuBaoPayCheckJob": {
+                        //查询订单
+                        result = orderNewYinFuBaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 振华支付代付提款订单mq定时查询
+                    case "WithdrawOrderZhenhuapayiCheckJob": {
+                        //查询订单
+                        result = orderZhenhuapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 银生宝直连支付代付提款订单mq定时查询
+                    case "WithdrawYsbZLPayCheckJob": {
+                        //查询订单
+                        result = orderYsbZLPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // UFC支付代付提款订单mq定时查询
+                    case "WithdrawOrderufcpayCheckJob": {
+                        //查询订单
+                        result = orderUfcpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 大把钱代付提款订单mq定时查询
+                    case "WithdrawOrderDabaqianpayCheckJob": {
+                        //查询订单
+                        result = orderDabaqianpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 东印代付提款订单mq定时查询
+                    case "WithdrawOrderDongYinPayCheckJob": {
+                        //查询订单
+                        result = orderDongYinPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 金星支付代付提款订单mq定时查询
+                    case "WithdrawOrderJinxingpayiCheckJob": {
+                        //查询订单
+                        result = orderJinxingpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鸵鸟支付代付提款订单mq定时查询
+                    case "WithdrawOrderTuoNiaoPayCheckJob": {
+                        //查询订单
+                        result = orderTuoNiaoPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 肥宝支付代付提款订单mq定时查询
+                    case "WithdrawFeiBaoPayCheckJob": {
+                        //查询订单
+                        result = orderFeiBaoPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 聚富Jupay代付提款订单mq定时查询
+                    case "WithdrawOrderJufujupayiCheckJob": {
+                        //查询订单
+                        result = orderJufujupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 斗战圣佛代付提款订单mq定时查询
+                    case "WithdrawOrderDouzhanshengfopayiCheckJob": {
+                        //查询订单
+                        result = orderDouzhanshengfopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 阿里代付提款订单mq定时查询
+                    case "WithdrawOrderALiPayCheckJob": {
+                        //查询订单
+                        result = orderALiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // H潮三方直连代付提款订单mq定时查询
+                    case "WithdrawOrderHchaosanfangpayiCheckJob": {
+                        //查询订单
+                        result = orderHchaosanfangpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 云南代付提款订单mq定时查询
+                    case "WithdrawOrderYunNanPayiCheckJob": {
+                        //查询订单
+                        result = orderYunNanPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 向日葵代付提款订单mq定时查询
+                    case "WithdrawOrderXiangRiKuipayiCheckJob": {
+                        //查询订单
+                        result = orderXiangRiKuipaypayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小鱼代付提款订单mq定时查询
+                    case "WithdrawOrderXiaoYuPayCheckJob": {
+                        //查询订单
+                        result = orderXiaoYuPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小鱼代付提款订单mq定时查询
+                    case "WithdrawOrderShenfudaifuCheckJob": {
+                        //查询订单
+                        result = orderShenfudaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // upayForFG代付提款订单mq定时查询
+                    case "WithdrawOrderUpayForFGPayCheckJob": {
+                        //查询订单
+                        result = orderUPayFGService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 上亿代付提款订单mq定时查询
+                    case "WithdrawOrderShangYiPayCheckJob": {
+                        //查询订单
+                        result = orderShangYiPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 安心宝支付代付提款订单mq定时查询
+                    case "WithdrawOrderAnxinbaopayiCheckJob": {
+                        //查询订单
+                        result = orderAnxinbaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 诺亚支付代付提款订单mq定时查询
+                    case "WithdrawOrderNuoyapayiCheckJob": {
+                        //查询订单
+                        result = orderNuoyapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // NN支付代付提款订单mq定时查询
+                    case "WithdrawOrderNnPayCheckJob": {
+                        //查询订单
+                        result = orderNnPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 山巅代付提款订单mq定时查询
+                    case "WithdrawOrderFlashPayCheckJob": {
+                        //查询订单
+                        result = orderFlashPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 山巅代付提款订单mq定时查询
+                    case "WithdrawOrderAstroPayCheckJob": {
+                        //查询订单
+                        result = orderAstroPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // HengXinPay代付提款订单mq定时查询
+                    case"WithdrawOrderHengXinPayCheckJob": {
+                        //查询订单
+                        result = orderHengXinPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // SepPay代付提款订单mq定时查询
+                    case"WithdrawOrderSepPayCheckJob": {
+                        //查询订单
+                        result = orderSepPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 金六福代付提款订单mq定时查询
+                    case"WithdrawOrderJinliufupayiCheckJob": {
+                        //查询订单
+                        result = orderJinliufupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //繁星支付代付订单mq定时查询
+                    case "WithdrawOrderFanxingpayCheckJob": {
+                        result = orderFanxingpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //新淼富代付订单mq定时查询
+                    case "WithdrawOrderXinmiaofupayCheckJob": {
+                        result = orderXinmiaofupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //聚汇支付订单mq定时查询
+                    case "WithdrawOrderJuHuiPayCheckJob": {
+                        result = orderJuHuiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //酷跑支付订单mq定时查询
+                    case "WithdrawOrderKupaopayiCheckJob": {
+                        result = orderKupaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //诚盈支付订单mq定时查询
+                    case "WithdrawOrderChengYingPayCheckJob": {
+                        result = orderChengYingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //小米支付订单mq定时查询
+                    case "WithdrawOrderXiaomipayCheckJob": {
+                        result = orderXiaomipayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //spay支付订单mq定时查询
+                    case "WithdrawOrderSPayCheckJob": {
+                        result = orderSPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //可乐支付订单mq定时查询
+                    case "WithdrawOrderKelePayCheckJob": {
+                        result = orderKelePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //Dd支付订单mq定时查询
+                    case "WithdrawOrderDdPayCheckJob": {
+                        result = orderDdPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //玖月支付订单mq定时查询
+                    case "WithdrawOrderJiuYuePayCheckJob": {
+                        result = orderJiuYuePayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //水木支付订单mq定时查询
+                    case "WithdrawOrderShuiMuPayCheckJob": {
+                        result = orderShuiMuPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //保赢订单mq定时查询
+                    case "WithdrawOrderbaoyingpayCheckJob": {
+                        result = orderBaoyingpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //完美尖端订单mq定时查询
+                    case "WithdrawOrderWanmeijianduanpayCheckJob": {
+                        result = orderWanmeijianduanpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //完美金星尖端订单mq定时查询
+                    case "WithdrawOrderWanMeiJinXingPayCheckJob": {
+                        result = orderWanMeiJinxingPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //完美卡多多订单mq定时查询
+                    case "WithdrawOrderWanMeiKaDDPayCheckJob": {
+                        result = orderWanMeiKaDDPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //雨幕支付订单mq定时查询
+                    case "WithdrawOrderYumupayCheckJob": {
+                        result = orderYumupayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //AAA代付订单mq定时查询
+                    case "WithdrawOrderAaadaifupayiCheckJob": {
+                        result = orderAaadaifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //完美虛擬幣支付订单mq定时查询
+                    case "WithdrawOrderWanMeiXuniBiPayCheckJob": {
+                        result = orderWanMeiXuniBiPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //天翼代付提款订单mq定时查询
+                    case "WithdrawOrderTianyi2payCheckJob": {
+                        //查询订单
+                        result = orderTianyi2payService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //凯撒支付提款订单mq定时查询
+                    case "WithdrawOrderKaisaPayCheckJob": {
+                        //查询订单
+                        result = orderKaisaPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //完美30支付提款订单mq定时查询
+                    case "WithdrawOrderWanMei30PayCheckJob": {
+                        //查询订单
+                        result = orderWanMei30PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 小山堡代付提款订单mq定时查询
+                    case "WithdrawOrderXiaoshanbaopayCheckJob": {
+                        result = orderXiaoshanbaopayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 长月代付提款订单mq定时查询
+                    case "WithdrawOrderchangyuedaifupayCheckJob": {
+                        result = orderChangyuedaifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 新月代付提款订单mq定时查询
+                    case"WithdrawOrderXinyuedaifuCheckJob": {
+                        //查询订单
+                        result = orderXinyuedaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 完美C300代付提款订单mq定时查询
+                    case"WithdrawOrderWanmeic300iCheckJob": {
+                        //查询订单
+                        result = orderWanmeic300Service.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 七星海代付提款订单mq定时查询
+                    case"WithdrawOrderQixinghaipayCheckJob": {
+                        //查询订单
+                        result = orderQixinghaipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // WC支付代付提款订单mq定时查询
+                    case"WithdrawOrderWcpayCheckJob": {
+                        //查询订单
+                        result = orderWcpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 完美钱程代付提款订单mq定时查询
+                    case"WithdrawOrderwanmeiqianchengpayCheckJob": {
+                        //查询订单
+                        result = orderWanmeiqianchengpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 完美长虹支付代付提款订单mq定时查询
+                    case"WithdrawOrderWanmeichanghongpayiCheckJob": {
+                        //查询订单
+                        result = orderWanmeichanghongpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 三德代付提款订单mq定时查询
+                    case"WithdrawOrderSandedaifupayiCheckJob": {
+                        //查询订单
+                        result = orderSandedaifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 泉铭代付提款订单mq定时查询
+                    case"WithdrawOrderQuanmingdaifuiCheckJob": {
+                        //查询订单
+                        result = orderQuanmingdaifuService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 长城代付提款订单mq定时查询
+                    case"WithdrawOrderChangchengpayiCheckJob": {
+                        //查询订单
+                        result = orderChangchengpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 质远代付提款订单mq定时查询
+                    case"WithdrawOrderzhiyuan3payCheckJob": {
+                        //查询订单
+                        result = orderZhiYuan3PayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // UH支付代付提款订单mq定时查询
+                    case"WithdrawOrderUhpayCheckJob": {
+                        //查询订单
+                        result = orderUhpayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 怒斩支付代付提款订单mq定时查询
+                    case"WithdrawOrderNuzhanpayiCheckJob": {
+                        //查询订单
+                        result = orderNuzhanpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 杰克支付代付提款订单mq定时查询
+                    case"WithdrawOrderJieKePayiCheckJob": {
+                        //查询订单
+                        result = orderJieKePayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 拿破仑支付代付提款订单mq定时查询
+                    case"WithdrawOrderNaPoLunPayCheckJob": {
+                        //查询订单
+                        result = orderNaPoLunPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // AK支付代付提款订单mq定时查询
+                    case"WithdrawOrderAkPayiCheckJob": {
+                        //查询订单
+                        result = orderAkPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 鑫发代付提款订单mq定时查询
+                    case"WithdrawOrderXinfapayCheckJob": {
+                        //查询订单
+                        result = orderXinfapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // MS代付提款订单mq定时查询
+                    case"WithdrawOrderMsPayCheckJob": {
+                        //查询订单
+                        result = orderMsPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 破星君代付提款订单mq定时查询
+                    case"WithdrawOrderPoJunXinPayCheckJob": {
+                        //查询订单
+                        result = orderPoJunXinPayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 飞机波比代付提款订单mq定时查询
+                    case"WithdrawOrderFeijibobipayiCheckJob": {
+                        //查询订单
+                        result = orderFeijibobipayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  MX支付代付提款订单mq定时查询
+                    case"WithdrawOrderMxpayiCheckJob": {
+                        //查询订单
+                        result = orderMxpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //  落叶支付代付提款订单mq定时查询
+                    case"WithdrawOrderLuoyepayiCheckJob": {
+                        //查询订单
+                        result = orderLuoyepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //   DF长藤代付提款订单mq定时查询
+                    case"WithdrawOrderdfchangtengCheckJob": {
+                        //查询订单
+                        result = orderDFchangtengService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //   神话代付提款订单mq定时查询
+                    case"WithdrawOrdershenhuapayCheckJob": {
+                        //查询订单
+                        result = orderShenhuapayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //一路发订单mq定时查询
+                    case "WithdrawOrderYilufapayCheckJob": {
+                        result = orderYilufapayService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //天尊支付订单mq定时查询
+                    case "WithdrawOrderTianzunpayCheckJob": {
+                        result = orderTianzunpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //大富翁订单mq定时查询
+                    case "WithdrawOrderDafuwengCheckJob": {
+                        result = orderDafuwengService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // 玖远支付代付提款订单mq定时查询
+                    case"WithdrawOrderJiuyuanpayiCheckJob": {
+                        //查询订单
+                        result = orderJiuyuanpayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Aaa2代付提款订单mq定时查询
+                    case"WithdrawOrderAaa2payCheckJob": {
+                        //查询订单
+                        result = orderAaa2payService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //银生宝代付提款订单mq定时查询
+                    case"WithdrawOrderYinShengBaoCheckJob": {
+                        //查询订单
+                        result = orderYinShengBaoService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //易付支付代付提款订单mq定时查询
+                    case"WithdrawOrderYifupayiCheckJob": {
+                        //查询订单
+                        result = orderYifupayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    //ZH石鳞剑士提款订单mq定时查询
+                    case"WithdrawOrderMsslPayCheckJob": {
+                        //查询订单
+                        result = orderMsslPayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // Aaa3代付提款订单mq定时查询
+                    case"WithdrawOrderAaa3payCheckJob": {
+                        //查询订单
+                        result = orderAaa3payService.queryWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }
+                    // WavePay代付提款订单mq定时查询
+                    case"WithdrawOrderWavePayCheckJob": {
+                        //查询订单
+                        result = orderWavepayService.selectWithdrawOrder(thirdChannelQueryTaskDto.getThirdWithdrawOrderDTO());
+                        break;
+                    }

@@ -1,6 +1,5 @@
 package com.jdktomcat.pack.log;
 
-import com.sun.deploy.util.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
