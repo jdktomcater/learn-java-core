@@ -1,0 +1,9 @@
+@startuml
+autonumber
+业务服务-> 指纹机服务: 加密/解密
+指纹机服务 -> 指纹机服务:对称加密解密
+指纹机服务 -> redis:保存\查询
+指纹机服务-> MySQL: 分表保存（分配密钥）
+指纹机服务-> 业务服务: 加解密结果
+autonumber stop
+@enduml
